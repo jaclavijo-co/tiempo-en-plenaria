@@ -9,3 +9,6 @@ data/descargas/*/audio.*
 # Estado local del descargador automático
 data/descargas/.candado
 data/descargas/launchd.log
+
+# Enlace local con el proyecto de Vercel
+sitio/.vercel/

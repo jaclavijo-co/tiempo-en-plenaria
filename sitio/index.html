@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tiempo en plenaria</title>
+<meta name="description" content="Qué dicen los documentos oficiales sobre las plenarias del Congreso de Colombia en los primeros 100 días del período 2026-2030.">
+<meta property="og:title" content="Tiempo en plenaria: los primeros 100 días">
+<meta property="og:description" content="Plenarias transmitidas, actas publicadas y proyectos que no salen del orden del día del Senado, con datos abiertos.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Concepto: informe cívico de una sola columna, cifras grandes en serif y gráficas sobrias con evidencia a la vista */
+:root {
+  color-scheme: light;
+  --bg: #f7f7f4; --panel: #fdfdfb; --fg: #16181d; --fg-2: #4d5058; --muted: #7d8089;
+  --line: #e2e1da; --grid: #e9e8e2; --axis: #c3c2b7;
+  --c-azul: #2a78d6; --c-naranja: #eb6834; --c-aqua: #1baf7a; --c-neutro: #b9b8b0; --c-vacio: #e1e0d9;
+  --aviso: #fab219; --mal: #d03b3b;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111214; --panel: #1a1b1e; --fg: #eeeee9; --fg-2: #c3c2b7; --muted: #8e8f95;
+    --line: #2d2e31; --grid: #26272a; --axis: #3b3c3f;
+    --c-azul: #3987e5; --c-naranja: #d95926; --c-aqua: #199e70; --c-neutro: #5c5b56; --c-vacio: #383835;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111214; --panel: #1a1b1e; --fg: #eeeee9; --fg-2: #c3c2b7; --muted: #8e8f95;
+  --line: #2d2e31; --grid: #26272a; --axis: #3b3c3f;
+  --c-azul: #3987e5; --c-naranja: #d95926; --c-aqua: #199e70; --c-neutro: #5c5b56; --c-vacio: #383835;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 var(--sans); }
+main { max-width: 72rem; margin-inline: auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 28px; }
+a { color: inherit; text-decoration-color: var(--axis); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+:focus-visible { outline: 2px solid var(--c-azul); outline-offset: 2px; }
+.eyebrow { margin: 0; color: var(--muted); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 5vw, 46px); line-height: 1.1; margin: 6px 0 10px; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 600; margin: 0; text-wrap: balance; }
+.lede { font-size: 18px; margin: 0; max-width: 62ch; }
+.b { font-weight: 700; font-variant-numeric: tabular-nums; }
+.note { margin: 0; color: var(--fg-2); font-size: 14px; max-width: 75ch; }
+.small { color: var(--muted); font-size: 13px; }
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 720px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 440px) { .tiles { grid-template-columns: 1fr; } }
+.tile, .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); min-width: 0; }
+.tile { padding: 18px; display: flex; flex-direction: column; gap: 4px; }
+.tile .n { font-family: var(--serif); font-size: 40px; line-height: 1.05; }
+.tile .l { font-weight: 500; }
+.tile .s { color: var(--fg-2); font-size: 13px; line-height: 1.4; }
+.card { padding: 22px; display: flex; flex-direction: column; gap: 12px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: 12px; }
+.chart { position: relative; min-width: 0; }
+.chart svg { display: block; overflow: visible; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 0; padding: 0; color: var(--fg-2); font-size: 13px; }
+.legend li { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: none; }
+.sw.sq { border-radius: 2px; }
+.sw.hollow { border: 2px solid var(--c-neutro); background: transparent; }
+.sw.x { width: auto; height: auto; border-radius: 0; font-weight: 700; color: var(--muted); line-height: 1; }
+.chip { display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; font-size: 13px; color: var(--fg-2); border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--aviso); }
+.tip { position: absolute; z-index: 5; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.14); padding: 7px 10px; font-size: 13px; line-height: 1.4; max-width: 18rem; }
+.tip .t1 { color: var(--fg-2); }
+.tablebox { max-height: 28rem; overflow: auto; border-top: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { position: sticky; top: 0; background: var(--panel); color: var(--fg-2); font-weight: 600; font-size: 13px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.id { white-space: nowrap; font-variant-numeric: tabular-nums; }
+ul.plain { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 6px; max-width: 75ch; }
+.fail { color: var(--fg-2); font-size: 14px; display: flex; align-items: center; gap: 8px; }
+.fail::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--mal); }
+footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Congreso de la República de Colombia · 20 de julio al 29 de octubre de 2026</p>
+    <h1>Tiempo en plenaria: los primeros 100 días</h1>
+    <p class="lede">En este período se transmitieron <span class="b" data-num="realizadas">—</span> plenarias del Senado y la Cámara. Solo <span class="b" data-num="con_acta">—</span> tienen su acta publicada en la Gaceta del Congreso, el registro oficial de lo que se dijo y se decidió en cada sesión, según las gacetas publicadas hasta el 22 de octubre.</p>
+  </header>
+
+  <section class="tiles" aria-label="Cifras del período">
+    <div class="tile">
+      <span class="n" data-num="realizadas">—</span>
+      <span class="l">Plenarias transmitidas</span>
+      <span class="s">Senado <span class="b" data-num="realizadas_senado">—</span> · Cámara <span class="b" data-num="realizadas_camara">—</span></span>
+    </div>
+    <div class="tile">
+      <span class="n" data-num="horas_video">—</span>
+      <span class="l">Horas de sesión en video</span>
+      <span class="s">Duración de las transmisiones de Canal Congreso</span>
+    </div>
+    <div class="tile">
+      <span class="n" data-num="con_acta">—</span>
+      <span class="l">Actas publicadas</span>
+      <span class="s">De <span class="b" data-num="realizadas">—</span> plenarias transmitidas, en gacetas hasta el 22 de octubre</span>
+    </div>
+    <div class="tile">
+      <span class="n" data-num="rezago_mediana">—</span>
+      <span class="l">Días para publicar un acta</span>
+      <span class="s">Mediana entre la sesión y su publicación en la Gaceta</span>
+    </div>
+    <div class="tile">
+      <span class="n" data-num="max_veces">—</span>
+      <span class="l">Veces que un mismo proyecto volvió al orden del día del Senado</span>
+      <span class="s"><span class="b" data-num="n_max_veces">—</span> proyectos estuvieron en <span class="b" data-num="max_veces">—</span> de <span class="b" data-num="convocatorias_con_proyectos">—</span> convocatorias y siguen en el orden del día</span>
+    </div>
+    <div class="tile">
+      <span class="n" data-num="aplazadas">—</span>
+      <span class="l">Plenarias del Senado aplazadas</span>
+      <span class="s">Según los comunicados de la Secretaría General del Senado</span>
+    </div>
+  </section>
+
+  <section class="card" id="sesiones">
+    <h2>Cada plenaria del período</h2>
+    <p class="note">Un punto por sesión. Las sesiones aplazadas salen de los comunicados de la Secretaría General del Senado; la Cámara no publica esos comunicados en su sitio.</p>
+    <ul class="legend">
+      <li><span class="sw" style="background: var(--c-azul)"></span>Con acta publicada</li>
+      <li><span class="sw hollow"></span>Sin acta publicada todavía</li>
+      <li><span class="sw x">×</span>Convocada y aplazada</li>
+    </ul>
+    <div class="chart" id="g-timeline" style="min-height: 190px"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card" id="agenda">
+      <h2>Proyectos que no salen del orden del día del Senado</h2>
+      <p class="note">Veces que cada proyecto apareció en los órdenes del día oficiales del Senado, de <span class="b" data-num="convocatorias_con_proyectos">—</span> convocatorias de plenaria con proyectos entre el 29 de julio y el 29 de octubre. Los 15 más repetidos.</p>
+      <div class="chart" id="g-agenda" style="min-height: 400px"></div>
+    </section>
+    <section class="card" id="rezago">
+      <h2>Cuánto tarda un acta en publicarse</h2>
+      <p class="note">Días entre cada sesión y la publicación de su acta en la Gaceta del Congreso, para las actas de este período que ya salieron.</p>
+      <div class="chart" id="g-rezago" style="min-height: 110px"></div>
+      <p class="lede"><span class="b" data-num="sin_acta">—</span> plenarias del período siguen sin acta publicada en las gacetas consultadas.</p>
+    </section>
+  </div>
+
+  <section class="card" id="piloto">
+    <h2>Piloto: cómo se usó el tiempo en una plenaria</h2>
+    <span class="chip">Clasificación hecha por un modelo de lenguaje, sin revisión humana todavía</span>
+    <p class="note">Cámara de Representantes, 28 de julio de 2026, a partir del Acta n.º 3 (Gaceta 1201 de 2026). Cada intervención del acta se clasificó con la <a href="metodologia/rubrica.md">rúbrica pública v0.1</a> y su duración se estimó por número de palabras. Es una prueba del método, no una conclusión sobre la Cámara.</p>
+    <p class="lede">De <span class="b" data-num="p_total">—</span> minutos entre la hora de citación y el cierre, <span class="b" data-num="p_pct_misional">—</span> % se dedicó a funciones que la Ley 5 de 1992 asigna al Congreso. La sesión empezó <span class="b" data-num="p_retraso">—</span> minutos después de la hora citada.</p>
+    <ul class="legend">
+      <li><span class="sw sq" style="background: var(--c-neutro)"></span>Espera antes del registro</li>
+      <li><span class="sw sq" style="background: var(--c-azul)"></span>Trabajo misional</li>
+      <li><span class="sw sq" style="background: var(--c-aqua)"></span>Procedimiento</li>
+      <li><span class="sw sq" style="background: var(--c-naranja)"></span>No pertinente</li>
+      <li><span class="sw sq" style="background: var(--c-vacio)"></span>Sin habla registrada (votaciones, pausas)</li>
+    </ul>
+    <div class="chart" id="g-piloto" style="min-height: 64px"></div>
+  </section>
+
+  <section class="card" id="proyectos">
+    <h2>Todos los proyectos agendados en el Senado</h2>
+    <p class="note">Número oficial en el Senado, título, veces en el orden del día y primera y última aparición.</p>
+    <div class="tablebox">
+      <table>
+        <thead><tr><th>Proyecto</th><th>Título</th><th class="num">Veces</th><th>Primera</th><th>Última</th></tr></thead>
+        <tbody id="t-agenda"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="metodo">
+    <h2>De dónde salen estas cifras</h2>
+    <ul class="plain">
+      <li>Órdenes del día y comunicados oficiales de la Secretaría General del Senado, sesión por sesión.</li>
+      <li>Índice de cada número de la Gaceta del Congreso de 2026, del 860 al 1612, leído de la copia pública en redjurista.com para saber qué actas de plenaria ya se publicaron. Cada número se puede verificar en el sitio de la Imprenta Nacional. Algunos números no estaban disponibles en esa copia.</li>
+      <li>Duración de las transmisiones completas de Canal Congreso en YouTube.</li>
+      <li>Que una sesión no tenga acta en esta página no quiere decir que el acta no exista: quiere decir que no se ha publicado o que salió después del 22 de octubre.</li>
+      <li>Lo que sigue: analizar el video de cada plenaria de punta a punta y comparar lo que se dijo con lo que registra el acta (<a href="metodologia/comparacion_acta_video.md">método</a>).</li>
+    </ul>
+    <p class="note">Datos abiertos: <a href="datos/sesiones.csv" download>plenarias</a> · <a href="datos/agenda_senado.csv" download>proyectos en el orden del día</a> · <a href="datos/piloto_camara_2026-07-28.csv" download>piloto</a> · <a href="metodologia/rubrica.md">rúbrica</a></p>
+  </section>
+
+  <footer>Actualizado el 29 de octubre de 2026. Auditoría ciudadana con metodología abierta: cualquier persona puede revisar los datos y el método.</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+const FUENTES = { sesiones: 'datos/sesiones.csv', agenda: 'datos/agenda_senado.csv', piloto: 'datos/piloto_camara_2026-07-28.csv' };
+const fmtN = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 });
+const fmt1 = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 1 });
+const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+const parse = (s) => new Date(s + 'T00:00:00Z');
+const fechaCorta = (d) => `${d.getUTCDate()} ${MESES[d.getUTCMonth()]}`;
+const css = (v) => `var(--${v})`;
+
+function resumen(sesiones, agenda) {
+  const hechas = sesiones.filter((s) => s.estado === 'realizada');
+  const conActa = hechas.filter((s) => s.acta === 'sí');
+  const veces = agenda.map((a) => +a.veces);
+  const max = veces.length ? Math.max(...veces) : 0;
+  return {
+    realizadas: hechas.length,
+    realizadas_senado: hechas.filter((s) => s.camara === 'Senado').length,
+    realizadas_camara: hechas.filter((s) => s.camara === 'Cámara').length,
+    horas_video: Math.round(d3.sum(hechas, (s) => +s.video_min || 0) / 60),
+    con_acta: conActa.length,
+    sin_acta: hechas.length - conActa.length,
+    aplazadas: sesiones.filter((s) => s.estado === 'aplazada').length,
+    rezago_mediana: conActa.length ? d3.median(conActa, (s) => +s.rezago_dias) : null,
+    max_veces: max,
+    n_max_veces: veces.filter((v) => v === max).length,
+    convocatorias_con_proyectos: sesiones.filter((s) => s.camara === 'Senado' && s.tipo === 'plenaria' && +s.proyectos_agendados > 0).length,
+  };
+}
+
+function resumenPiloto(piloto) {
+  const total = d3.sum(piloto.filter((p) => p.tramo !== 'retraso_inicio'), (p) => +p.minutos);
+  const misional = piloto.find((p) => p.tramo === 'misional');
+  const retraso = piloto.find((p) => p.tramo === 'retraso_inicio');
+  return { p_total: total, p_pct_misional: misional ? Math.round(100 * +misional.minutos / total) : null, p_retraso: retraso ? +retraso.minutos : null };
+}
+
+function tooltip(box) {
+  let t = box.querySelector(':scope > .tip');
+  if (!t) { t = document.createElement('div'); t.className = 'tip'; t.hidden = true; box.appendChild(t); }
+  return {
+    show(ev, lines) {
+      t.replaceChildren(...lines.map((l, i) => Object.assign(document.createElement('div'), { className: i === 0 ? 't1' : '', textContent: l })));
+      t.hidden = false;
+      const r = box.getBoundingClientRect();
+      const x = ev.clientX - r.left, y = ev.clientY - r.top;
+      t.style.left = Math.max(0, Math.min(x + 12, r.width - t.offsetWidth)) + 'px';
+      t.style.top = (y - t.offsetHeight - 10 < 0 ? y + 14 : y - t.offsetHeight - 10) + 'px';
+    },
+    hide() { t.hidden = true; },
+  };
+}
+
+function lienzo(el, H, etiqueta) {
+  el.querySelectorAll('svg').forEach((s) => s.remove());
+  const W = el.clientWidth || 600;
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', etiqueta);
+  return { svg, W };
+}
+
+function texto(sel) { return sel.attr('fill', css('fg')).attr('font-size', 13).attr('font-family', 'var(--sans)'); }
+
+function dibujarLinea(el, sesiones) {
+  const filas = sesiones.filter((s) => s.tipo !== 'congreso_pleno');
+  const H = 190, m = { l: 64, r: 12, t: 12, b: 28 };
+  const { svg, W } = lienzo(el, H, 'Plenarias por fecha y cámara');
+  const x = d3.scaleUtc([parse('2026-07-17'), parse('2026-11-01')], [m.l, W - m.r]);
+  const y = d3.scalePoint(['Senado', 'Cámara'], [m.t + 30, H - m.b - 30]);
+  const ticks = x.ticks(d3.utcMonth.every(1));
+  svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', m.t).attr('y2', H - m.b).style('stroke', css('grid'));
+  texto(svg.append('g').selectAll('text').data(ticks.filter((t) => x(t) + 34 <= W)).join('text')
+    .attr('x', (t) => x(t) + 4).attr('y', H - m.b + 18)).style('fill', css('muted')).text((t) => MESES[t.getUTCMonth()]);
+  texto(svg.append('g').selectAll('text').data(y.domain()).join('text').attr('x', 0).attr('y', (c) => y(c) + 4)).text((c) => c);
+  svg.append('g').selectAll('line').data(y.domain()).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).style('stroke', css('axis'));
+  const tip = tooltip(el);
+  svg.append('g').selectAll('circle').data(filas.filter((s) => s.estado === 'realizada')).join('circle')
+    .attr('cx', (s) => x(parse(s.fecha))).attr('cy', (s) => y(s.camara)).attr('r', 6).attr('stroke-width', 2).attr('tabindex', 0)
+    .style('fill', (s) => (s.acta === 'sí' ? css('c-azul') : css('panel')))
+    .style('stroke', (s) => (s.acta === 'sí' ? css('panel') : css('c-neutro')))
+    .on('pointermove focus', (ev, s) => tip.show(ev.clientX ? ev : { clientX: ev.target.getBoundingClientRect().x, clientY: ev.target.getBoundingClientRect().y }, [
+      `${s.camara} · ${fechaCorta(parse(s.fecha))}`,
+      s.video_min ? `${fmt1.format(+s.video_min / 60)} h de video` : 'Sin video',
+      s.acta === 'sí' ? `Acta en la Gaceta ${s.gaceta}, publicada el ${fechaCorta(parse(s.publicada))} (${s.rezago_dias} días)` : 'Acta sin publicar',
+      s.hora_citacion ? `Citada a las ${s.hora_citacion}` : '',
+      s.nota,
+    ].filter(Boolean)))
+    .on('pointerleave blur', () => tip.hide());
+  svg.append('g').selectAll('text').data(filas.filter((s) => s.estado === 'aplazada')).join('text')
+    .attr('x', (s) => x(parse(s.fecha))).attr('y', (s) => y(s.camara) - 14).attr('text-anchor', 'middle').attr('font-weight', 700)
+    .style('fill', css('muted')).text('×')
+    .on('pointermove', (ev, s) => tip.show(ev, [`${s.camara} · ${fechaCorta(parse(s.fecha))}`, s.nota || 'Convocada y aplazada']))
+    .on('pointerleave', () => tip.hide());
+}
+
+function barras(el, filas, { etiqueta, valor, texto: txt, color, tooltipLineas, aria }) {
+  const fila = 26, H = filas.length * fila + 6;
+  const { svg, W } = lienzo(el, H, aria);
+  const labels = texto(svg.append('g').selectAll('text').data(filas).join('text').attr('x', 0).attr('y', (r, i) => i * fila + 17)).text(etiqueta);
+  const ancho = d3.max(labels.nodes(), (n) => n.getComputedTextLength()) + 10;
+  const finales = texto(svg.append('g').selectAll('text').data(filas).join('text').attr('y', (r, i) => i * fila + 18)).text(txt);
+  const anchoValor = d3.max(finales.nodes(), (n) => n.getComputedTextLength()) + 8;
+  const x = d3.scaleLinear([0, d3.max(filas, valor)], [ancho, W - anchoValor]);
+  finales.attr('x', (r) => x(valor(r)) + 6);
+  const tip = tooltip(el);
+  svg.insert('g', ':first-child').selectAll('rect').data(filas).join('rect')
+    .attr('x', ancho).attr('y', (r, i) => i * fila + 6).attr('height', 16).attr('rx', 3)
+    .attr('width', (r) => Math.max(2, x(valor(r)) - ancho)).style('fill', color)
+    .on('pointermove', (ev, r) => tip.show(ev, tooltipLineas(r))).on('pointerleave', () => tip.hide());
+}
+
+function dibujarPiloto(el, piloto) {
+  const orden = ['espera', 'misional', 'procedimiento', 'no_pertinente', 'sin_habla'];
+  const nombres = { espera: 'Espera antes del registro', misional: 'Trabajo misional', procedimiento: 'Procedimiento', no_pertinente: 'No pertinente', sin_habla: 'Sin habla registrada' };
+  const colores = { espera: 'c-neutro', misional: 'c-azul', procedimiento: 'c-aqua', no_pertinente: 'c-naranja', sin_habla: 'c-vacio' };
+  const filas = orden.map((k) => piloto.find((p) => p.tramo === k)).filter(Boolean).map((p) => ({ ...p, minutos: +p.minutos }));
+  const total = d3.sum(filas, (p) => p.minutos), gap = 2;
+  const { svg, W } = lienzo(el, 60, 'Uso del tiempo en la plenaria piloto');
+  const x = d3.scaleLinear([0, total], [0, W - gap * (filas.length - 1)]);
+  let acc = 0;
+  const pos = filas.map((p, i) => { const x0 = x(acc) + gap * i; acc += p.minutos; return { ...p, x0, w: Math.max(1, x(p.minutos)) }; });
+  const tip = tooltip(el);
+  svg.append('g').selectAll('rect').data(pos).join('rect').attr('x', (p) => p.x0).attr('y', 4).attr('height', 26).attr('width', (p) => p.w).attr('rx', 3)
+    .style('fill', (p) => css(colores[p.tramo]))
+    .on('pointermove', (ev, p) => tip.show(ev, [nombres[p.tramo], `${fmtN.format(p.minutos)} min · ${fmtN.format(100 * p.minutos / total)} %`]))
+    .on('pointerleave', () => tip.hide());
+  texto(svg.append('g').selectAll('text').data(pos.filter((p) => p.w > 44)).join('text').attr('x', (p) => p.x0).attr('y', 50))
+    .style('fill', css('muted')).text((p) => `${fmtN.format(100 * p.minutos / total)} %`);
+}
+
+function llenarTabla(agenda) {
+  const tb = document.getElementById('t-agenda');
+  const filas = [...agenda].sort((a, b) => +b.veces - +a.veces || a.id.localeCompare(b.id));
+  tb.replaceChildren(...filas.map((r) => {
+    const tr = document.createElement('tr');
+    for (const [k, cls] of [['id', 'id'], ['titulo', ''], ['veces', 'num'], ['primera', 'num'], ['ultima', 'num']]) {
+      const td = document.createElement('td');
+      if (cls) td.className = cls;
+      td.textContent = k === 'primera' || k === 'ultima' ? fechaCorta(parse(r[k])) : r[k];
+      tr.appendChild(td);
+    }
+    return tr;
+  }));
+}
+
+function fallo(msg) {
+  document.querySelectorAll('.chart').forEach((el) => el.replaceChildren(Object.assign(document.createElement('div'), { className: 'fail', textContent: msg })));
+}
+
+Promise.all(Object.values(FUENTES).map((u) => d3.csv(u))).then(([sesiones, agenda, piloto]) => {
+  const valores = { ...resumen(sesiones, agenda), ...resumenPiloto(piloto) };
+  document.querySelectorAll('[data-num]').forEach((el) => {
+    const v = valores[el.dataset.num];
+    el.textContent = v === null || v === undefined || Number.isNaN(v) ? '—' : fmtN.format(v);
+  });
+  llenarTabla(agenda);
+  const top = agenda.map((r) => ({ ...r, veces: +r.veces })).sort((a, b) => b.veces - a.veces || a.id.localeCompare(b.id)).slice(0, 15);
+  const maxVeces = d3.max(top, (r) => r.veces);
+  const conActa = sesiones.filter((s) => s.acta === 'sí').map((s) => ({ ...s, rz: +s.rezago_dias })).sort((a, b) => a.fecha.localeCompare(b.fecha));
+  const dibujar = () => {
+    dibujarLinea(document.getElementById('g-timeline'), sesiones);
+    barras(document.getElementById('g-agenda'), top, {
+      etiqueta: (r) => r.id, valor: (r) => r.veces, texto: (r) => r.veces, aria: 'Veces en el orden del día por proyecto',
+      color: (r) => (r.veces === maxVeces ? css('c-naranja') : css('c-azul')),
+      tooltipLineas: (r) => [r.id, r.titulo.length > 140 ? r.titulo.slice(0, 140) + '…' : r.titulo, `${r.veces} veces · ${fechaCorta(parse(r.primera))} → ${fechaCorta(parse(r.ultima))}`],
+    });
+    barras(document.getElementById('g-rezago'), conActa, {
+      etiqueta: (s) => `${s.camara} ${fechaCorta(parse(s.fecha))}`, valor: (s) => s.rz, texto: (s) => `${s.rz} días`, aria: 'Días hasta la publicación del acta',
+      color: () => css('c-azul'),
+      tooltipLineas: (s) => [`${s.camara} · sesión del ${fechaCorta(parse(s.fecha))}`, `Acta publicada en la Gaceta ${s.gaceta} el ${fechaCorta(parse(s.publicada))}`, `${s.rz} días después de la sesión`],
+    });
+    dibujarPiloto(document.getElementById('g-piloto'), piloto);
+  };
+  dibujar();
+  let ancho = window.innerWidth;
+  new ResizeObserver(() => { if (window.innerWidth !== ancho) { ancho = window.innerWidth; dibujar(); } }).observe(document.body);
+}).catch(() => fallo('No se pudieron cargar los datos. Recarga la página.'));
+</script>
+</body>
+</html>
