@@ -46,8 +46,13 @@ python scripts/reporte.py camara_2026-07-28
 
 ## Rutinas automáticas
 
-Corren en el Mac del mantenedor con `launchd` (definiciones en `scripts/launchd/`) y suben sus resultados a
-GitHub desde la rama `main`.
+Corren en macOS con `launchd` y suben sus resultados a GitHub desde la rama `main`. Las definiciones son
+plantillas en `scripts/launchd/`; para instalarlas en tu Mac:
+
+```bash
+bash scripts/launchd/instalar.sh            # las tres
+bash scripts/launchd/instalar.sh detector   # solo una
+```
 
 | Cuándo | Script | Qué hace |
 |---|---|---|
@@ -68,6 +73,17 @@ Sitio público: https://tiempo-en-plenaria.vercel.app (carpeta `sitio/`).
   anotador, con validación contra anotadores humanos. Es el modelo de validación a seguir.
 - [kalawinka/cto_analysis](https://github.com/kalawinka/cto_analysis): llamados al orden en el
   Bundestag, como referencia para medir el tono.
+
+## Qué no está en el repositorio
+
+Las clasificaciones del piloto por intervención y por congresista no se publican mientras no pasen la
+validación humana (concordancia contra una revisión a ciegas). Se conservan en local y entran al
+repositorio cuando la rúbrica esté validada. El sitio sí muestra el resultado agregado del piloto, marcado
+como clasificación sin revisión humana.
+
+## Licencia
+
+Código bajo licencia MIT (`LICENSE`). Datos, metodología y textos bajo CC BY 4.0 (`LICENSE-DATOS.md`).
 
 ## Estado
 Piloto con la plenaria de la Cámara del 28 de julio de 2026 (Acta n.º 3, Gaceta 1201 de 2026).

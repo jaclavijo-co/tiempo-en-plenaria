@@ -9,10 +9,10 @@
     <string>/opt/homebrew/bin/python3</string>
     <string>-E</string>
     <string>-P</string>
-    <string>/Users/joselito/Proyecto Auditoria Congreso/scripts/descargador_lento.py</string>
+    <string>__RAIZ__/scripts/descargador_lento.py</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso</string>
+  <string>__RAIZ__</string>
   <key>EnvironmentVariables</key>
   <dict>
     <key>PATH</key>
@@ -26,8 +26,8 @@
   <key>Nice</key>
   <integer>10</integer>
   <key>StandardOutPath</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso/data/descargas/launchd.log</string>
+  <string>__RAIZ__/data/descargas/launchd.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso/data/descargas/launchd.log</string>
+  <string>__RAIZ__/data/descargas/launchd.log</string>
 </dict>
 </plist>

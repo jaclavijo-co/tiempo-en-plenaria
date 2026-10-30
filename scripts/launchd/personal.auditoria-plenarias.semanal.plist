@@ -9,14 +9,14 @@
     <string>/opt/homebrew/bin/python3</string>
     <string>-E</string>
     <string>-P</string>
-    <string>/Users/joselito/Proyecto Auditoria Congreso/scripts/corte_semanal.py</string>
+    <string>__RAIZ__/scripts/corte_semanal.py</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso</string>
+  <string>__RAIZ__</string>
   <key>EnvironmentVariables</key>
   <dict>
     <key>PATH</key>
-    <string>/usr/local/bin:/opt/homebrew/bin:/Users/joselito/.npm-global/bin:/Users/joselito/.local/bin:/usr/bin:/bin</string>
+    <string>/usr/local/bin:/opt/homebrew/bin:__HOME__/.npm-global/bin:__HOME__/.local/bin:/usr/bin:/bin</string>
   </dict>
   <!-- Lunes a las 6:30: actas nuevas, datos del informe, despliegue en Vercel y GitHub -->
   <key>StartCalendarInterval</key>
@@ -31,8 +31,8 @@
   <key>Nice</key>
   <integer>10</integer>
   <key>StandardOutPath</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso/data/rutinas/semanal.log</string>
+  <string>__RAIZ__/data/rutinas/semanal.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/joselito/Proyecto Auditoria Congreso/data/rutinas/semanal.log</string>
+  <string>__RAIZ__/data/rutinas/semanal.log</string>
 </dict>
 </plist>

@@ -15,3 +15,12 @@ sitio/.vercel/
 
 # Registros locales de las rutinas
 data/rutinas/*.log
+
+# Respaldos y material local que no se publica
+privado/
+
+# Clasificaciones individuales sin validar: se publican solo después de la validación humana
+data/processed/clasif/
+data/processed/*_resumen.json
+data/validacion/
+reportes/*.html

@@ -43,6 +43,9 @@ python3 -m venv --system-site-packages .venv
 
 El `README.md` explica la estructura, los scripts y las rutinas automáticas.
 
+Para correr las rutinas automáticas en tu Mac: `bash scripts/launchd/instalar.sh`.
+
 ## Licencia
 
-Por definir antes de abrir el repositorio al público.
+Al contribuir aceptas que tu código se publique bajo la licencia MIT (`LICENSE`) y tus datos, análisis y
+textos bajo CC BY 4.0 (`LICENSE-DATOS.md`).
