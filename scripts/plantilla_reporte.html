@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiempo en plenaria</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --s-misional: #2a78d6; --s-nopert: #eb6834; --s-proc: #1baf7a;
+  --n-espera: #c3c2b7; --n-sinhabla: #e1e0d9;
+  --warn: #fab219;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19;
+    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+    --s-misional: #3987e5; --s-nopert: #d95926; --s-proc: #199e70;
+    --n-espera: #5c5b56; --n-sinhabla: #383835;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19;
+  --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+  --s-misional: #3987e5; --s-nopert: #d95926; --s-proc: #199e70;
+  --n-espera: #5c5b56; --n-sinhabla: #383835;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 26px; line-height: 1.2; margin: 4px 0 6px; font-weight: 650; }
+h2 { font-size: 17px; margin: 0 0 4px; font-weight: 600; }
+.eyebrow { color: var(--ink-2); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+.sub { color: var(--ink-2); margin: 0 0 16px; }
+.note { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+a { color: inherit; text-decoration-color: var(--axis); text-underline-offset: 2px; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 20px; margin: 16px 0; }
+.banner { display: flex; gap: 10px; align-items: flex-start; border: 1px solid var(--ring); border-radius: 12px;
+  background: var(--surface); padding: 12px 16px; margin: 16px 0; font-size: 14px; }
+.banner svg { flex: none; margin-top: 2px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 16px 0; }
+.tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 16px; }
+.tile .label { color: var(--ink-2); font-size: 13px; }
+.tile .value { font-size: 28px; font-weight: 620; margin-top: 2px; }
+.tile .detail { color: var(--muted); font-size: 12.5px; }
+.tile.hero .value { font-size: 52px; line-height: 1.05; }
+.stack { display: flex; gap: 2px; height: 24px; margin: 14px 0 10px; }
+.stack .seg { height: 100%; min-width: 2px; outline: none; }
+.stack .seg:first-child { border-radius: 4px 0 0 4px; }
+.stack .seg:last-child { border-radius: 0 4px 4px 0; }
+.seg:hover, .seg:focus-visible { filter: brightness(1.12); }
+.strip { display: flex; gap: 1px; height: 36px; margin: 14px 0 6px; }
+.strip .seg { height: 100%; min-width: 1px; }
+.axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; flex: none; }
+.bars { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 10px 12px; align-items: center; margin-top: 14px; }
+.bars .name { font-size: 13.5px; color: var(--ink-2); }
+.bars .track { display: flex; align-items: center; gap: 8px; }
+.bars .bar { height: 18px; border-radius: 0 4px 4px 0; min-width: 2px; }
+.bars .val { font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.two .card { margin: 0; }
+@media (max-width: 720px) { .two { grid-template-columns: 1fr; } .tile.hero .value { font-size: 44px; } }
+.tablewrap { overflow-x: auto; max-height: 520px; overflow-y: auto; margin-top: 12px; border-top: 1px solid var(--grid); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { position: sticky; top: 0; background: var(--surface); color: var(--ink-2); font-weight: 600; font-size: 12.5px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.cita { color: var(--ink-2); font-style: italic; min-width: 240px; }
+.tag { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+#tip { position: fixed; pointer-events: none; z-index: 10; max-width: 320px; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--ring); border-radius: 8px; padding: 8px 10px; font-size: 12.5px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; }
+#tip strong { font-size: 14px; display: block; }
+#tip .k { display: inline-block; width: 12px; height: 2px; vertical-align: middle; margin-right: 6px; }
+#tip .q { color: var(--ink-2); font-style: italic; margin-top: 4px; }
+ul.lim { padding-left: 18px; margin: 8px 0 0; }
+ul.lim li { margin: 4px 0; }
+footer { color: var(--muted); font-size: 12.5px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Auditoría del tiempo en plenaria · Piloto</div>
+  <h1 id="titulo"></h1>
+  <p class="sub" id="fuentes"></p>
+
+  <div class="banner" role="note">
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 15 14H1z" fill="var(--warn)"/><path d="M8 6v4M8 11.6v.1" stroke="#0b0b0b" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <div><strong>Piloto metodológico.</strong> Tiempos estimados a partir del texto del acta oficial
+      (<span id="ppm"></span> palabras por minuto). Las clasificaciones no han tenido revisión humana. No publicar
+      estas cifras sin validarlas.</div>
+  </div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section class="card">
+    <h2>Cómo se usaron los <span id="conv-min"></span> minutos de la convocatoria</h2>
+    <p class="note" style="margin-top:0">Desde la hora de citación hasta el cierre de la sesión. Pasa el cursor sobre cada tramo.</p>
+    <div class="stack" id="stack"></div>
+    <div class="legend" id="stack-legend"></div>
+    <div class="tablewrap" style="max-height:none">
+      <table id="stack-table"><thead><tr><th>Tramo</th><th class="num">Minutos</th><th class="num">% de la convocatoria</th></tr></thead><tbody></tbody></table>
+    </div>
+    <p class="note">«Sin habla registrada» es el tiempo en sesión que el texto no explica: votaciones electrónicas,
+      pausas, recesos y el margen de error de la estimación. El video de la sesión permite separarlo.</p>
+  </section>
+
+  <section class="card">
+    <h2>La sesión en secuencia</h2>
+    <p class="note" style="margin-top:0">Cada franja es una intervención, en el orden en que ocurrió. El ancho es proporcional a su duración estimada.</p>
+    <div class="strip" id="strip"></div>
+    <div class="axis"><span id="ax-ini"></span><span id="ax-fin"></span></div>
+    <div class="legend" id="strip-legend" style="margin-top:10px"></div>
+  </section>
+
+  <div class="two">
+    <section class="card">
+      <h2>Trabajo misional por función</h2>
+      <p class="note" style="margin-top:0">Funciones del Art. 6 de la Ley 5 de 1992. Minutos estimados.</p>
+      <div class="bars" id="bars-funcion"></div>
+    </section>
+    <section class="card">
+      <h2>Tiempo no pertinente por tipo</h2>
+      <p class="note" style="margin-top:0">Intervenciones que no tratan el asunto en discusión. Minutos estimados.</p>
+      <div class="bars" id="bars-subtipo"></div>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Por congresista</h2>
+    <p class="note" style="margin-top:0">Solo se calcula el porcentaje no pertinente con 3 o más intervenciones.
+      Presidencia y Secretaría se excluyen porque conducen la sesión.</p>
+    <div class="tablewrap">
+      <table id="t-congresistas"><thead><tr><th>Congresista</th><th class="num">Intervenciones</th><th class="num">Min. estimados</th><th class="num">% no pertinente</th><th>Función principal</th></tr></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Evidencia: intervenciones no pertinentes</h2>
+    <p class="note" style="margin-top:0">Cita textual del acta y enlace a la página de la Gaceta del Congreso.</p>
+    <div class="tablewrap">
+      <table id="t-evidencia"><thead><tr><th>Orador</th><th>Tipo</th><th>Cita</th><th class="num">Pág.</th></tr></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Método y límites</h2>
+    <ul class="lim">
+      <li>Fuente de texto: acta oficial publicada en la Gaceta del Congreso. Cada intervención se segmenta por orador tal como la registra el acta.</li>
+      <li>Clasificación según la rúbrica pública v0.1: trabajo misional (funciones del Art. 6 de la Ley 5 de 1992), procedimiento, no pertinente y tiempo muerto. Ante la duda se clasifica a favor del congresista.</li>
+      <li>Duración estimada por número de palabras. El acta es una transcripción editada: puede omitir interrupciones, intervenciones sin micrófono y tiempos de votación.</li>
+      <li id="lim-nombres"></li>
+      <li>Las clasificaciones de este piloto las hizo un modelo de lenguaje con la rúbrica y no han tenido revisión humana. Antes de publicar se revisa una muestra y se mide la concordancia.</li>
+    </ul>
+  </section>
+
+  <footer>Metodología abierta · rúbrica v0.1 · Datos: acta oficial y Canal Congreso.</footer>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const D = /*__DATOS__*/null;
+const fmt = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 });
+const fmt1 = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 1 });
+const BLOQUE = {
+  espera:        { label: 'Espera antes del registro', color: 'var(--n-espera)' },
+  misional:      { label: 'Trabajo misional',          color: 'var(--s-misional)' },
+  procedimiento: { label: 'Procedimiento',             color: 'var(--s-proc)' },
+  no_pertinente: { label: 'No pertinente',             color: 'var(--s-nopert)' },
+  tiempo_muerto: { label: 'Tiempo muerto',             color: 'var(--n-espera)' },
+  sin_habla:     { label: 'Sin habla registrada',      color: 'var(--n-sinhabla)' },
+};
+const FUNCION = { legislativa: 'Legislativa', constituyente: 'Constituyente', control_politico: 'Control político',
+  judicial: 'Judicial', electoral: 'Electoral', administrativa: 'Administrativa',
+  control_publico: 'Control público', protocolo: 'Protocolo' };
+const SUBTIPO = { fuera_de_tema: 'Fuera de tema', alusiones_replicas: 'Alusiones y réplicas',
+  confrontacion: 'Confrontación', cortesias: 'Cortesías y saludos', desorden: 'Desorden' };
+
+const el = (tag, attrs = {}, text) => { const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text !== undefined) n.textContent = text; return n; };
+const S = D.sesion, M = D.minutos, C = D.conteos;
+const fecha = new Date(S.fecha + 'T12:00:00').toLocaleDateString('es-CO', { day: 'numeric', month: 'long', year: 'numeric' });
+
+document.getElementById('titulo').textContent = `${S.camara} — sesión del ${fecha}`;
+const f = document.getElementById('fuentes');
+f.append('Fuente: ');
+const a1 = el('a', { href: S.fuente_texto.url, target: '_blank', rel: 'noopener' }, `${S.fuente_texto.acta}, ${S.fuente_texto.documento}`);
+f.append(a1, ' · ');
+const a2 = el('a', { href: S.fuente_video.url, target: '_blank', rel: 'noopener' }, `video en ${S.fuente_video.canal}`);
+f.append(a2);
+document.getElementById('ppm').textContent = D.metodo.palabras_por_minuto;
+document.getElementById('conv-min').textContent = fmt.format(M.convocatoria);
+
+// Tooltip compartido
+const tip = document.getElementById('tip');
+function showTip(ev, value, label, color, extra) {
+  tip.replaceChildren();
+  const s = el('strong', {}, value); tip.append(s);
+  const row = el('div'); const k = el('span', { class: 'k' }); k.style.background = color; row.append(k, label); tip.append(row);
+  if (extra) for (const line of extra) tip.append(el('div', { class: line.q ? 'q' : '' }, line.t));
+  tip.style.display = 'block';
+  const r = (ev.target.getBoundingClientRect && ev.clientX === undefined) ? ev.target.getBoundingClientRect() : null;
+  const x = r ? r.left + r.width / 2 : ev.clientX, y = r ? r.top : ev.clientY;
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(Math.max(8, x - w / 2), innerWidth - w - 8) + 'px';
+  tip.style.top = (y - h - 12 < 8 ? y + 18 : y - h - 12) + 'px';
+}
+const hideTip = () => { tip.style.display = 'none'; };
+function hoverable(node, fn) {
+  node.tabIndex = 0;
+  node.addEventListener('pointermove', fn); node.addEventListener('focus', fn);
+  node.addEventListener('pointerleave', hideTip); node.addEventListener('blur', hideTip);
+}
+
+// Cifras clave
+const pctMisional = 100 * M.por_bloque.misional / M.convocatoria;
+const tiles = [
+  { hero: true, label: 'De la convocatoria fue trabajo misional', value: fmt.format(pctMisional) + '%',
+    detail: `${fmt.format(M.por_bloque.misional)} de ${fmt.format(M.convocatoria)} minutos (estimado)` },
+  { label: 'Retraso en iniciar la sesión', value: `${M.retraso_inicio} min`,
+    detail: `Citada a las ${S.horas.citacion}, inició a las ${S.horas.inicio_sesion}` },
+  { label: 'Congresistas que tomaron la palabra', value: fmt.format(C.congresistas_que_hablaron),
+    detail: `${fmt.format(C.intervenciones)} intervenciones en total` },
+  { label: 'Intervenciones no pertinentes', value: fmt.format(C.no_pertinentes),
+    detail: `${fmt.format(M.por_bloque.no_pertinente)} minutos estimados` },
+];
+const tilesEl = document.getElementById('tiles');
+for (const t of tiles) {
+  const d = el('div', { class: 'tile' + (t.hero ? ' hero' : '') });
+  d.append(el('div', { class: 'value' }, t.value), el('div', { class: 'label' }, t.label), el('div', { class: 'detail' }, t.detail));
+  tilesEl.append(d);
+}
+
+// Barra apilada de la convocatoria
+const tramos = [
+  ['espera', M.espera_antes_del_registro],
+  ['misional', M.por_bloque.misional],
+  ['procedimiento', M.por_bloque.procedimiento],
+  ['no_pertinente', M.por_bloque.no_pertinente],
+  ['tiempo_muerto', M.por_bloque.tiempo_muerto],
+  ['sin_habla', M.sin_habla_registrada],
+].filter(([, v]) => v > 0);
+const stack = document.getElementById('stack'), legend = document.getElementById('stack-legend');
+const tbody = document.querySelector('#stack-table tbody');
+for (const [k, v] of tramos) {
+  const b = BLOQUE[k], pct = 100 * v / M.convocatoria;
+  const seg = el('div', { class: 'seg', 'aria-label': `${b.label}: ${fmt.format(v)} minutos` });
+  seg.style.flex = `${v} 0 0`; seg.style.background = b.color;
+  hoverable(seg, ev => showTip(ev, `${fmt.format(v)} min · ${fmt.format(pct)}%`, b.label, b.color));
+  stack.append(seg);
+  const l = el('span'); const sw = el('i', { class: 'sw' }); sw.style.background = b.color; l.append(sw, b.label); legend.append(l);
+  const tr = el('tr');
+  const td0 = el('td'); const tg = el('span', { class: 'tag' }); const sw2 = el('i', { class: 'sw' }); sw2.style.background = b.color;
+  tg.append(sw2, b.label); td0.append(tg);
+  tr.append(td0, el('td', { class: 'num' }, fmt.format(v)), el('td', { class: 'num' }, fmt.format(pct) + '%'));
+  tbody.append(tr);
+}
+
+// Secuencia de intervenciones
+const strip = document.getElementById('strip'), stripLegend = document.getElementById('strip-legend');
+for (const s of D.secuencia) {
+  const b = BLOQUE[s.bloque];
+  const seg = el('div', { class: 'seg', 'aria-label': `${s.orador}: ${b.label}` });
+  seg.style.flex = `${Math.max(s.min, 0.05)} 0 0`; seg.style.background = b.color;
+  const det = s.bloque === 'misional' ? FUNCION[s.funcion] : s.bloque === 'no_pertinente' ? SUBTIPO[s.subtipo] : null;
+  hoverable(seg, ev => showTip(ev, s.orador, `${b.label}${det ? ' · ' + det : ''} · ${fmt1.format(s.min)} min · pág. ${s.pagina}`, b.color,
+    s.evidencia ? [{ t: '«' + s.evidencia + '»', q: true }] : null));
+  strip.append(seg);
+}
+for (const k of ['misional', 'procedimiento', 'no_pertinente']) {
+  const l = el('span'); const sw = el('i', { class: 'sw' }); sw.style.background = BLOQUE[k].color; l.append(sw, BLOQUE[k].label); stripLegend.append(l);
+}
+document.getElementById('ax-ini').textContent = `Apertura del registro ${S.horas.apertura_registro}`;
+document.getElementById('ax-fin').textContent = `Cierre ${S.horas.cierre}`;
+
+// Barras simples
+function bars(id, data, labels, color) {
+  const root = document.getElementById(id);
+  const max = Math.max(...Object.values(data), 1);
+  const entries = Object.entries(data).sort((a, b) => b[1] - a[1]);
+  if (!entries.length) { root.append(el('div', { class: 'name' }, 'Sin registros')); return; }
+  for (const [k, v] of entries) {
+    root.append(el('div', { class: 'name' }, labels[k] || k));
+    const tr = el('div', { class: 'track' });
+    const bar = el('div', { class: 'bar seg', 'aria-label': `${labels[k] || k}: ${fmt1.format(v)} minutos` });
+    bar.style.width = `calc((100% - 70px) * ${v / max})`; bar.style.background = color;
+    hoverable(bar, ev => showTip(ev, `${fmt1.format(v)} min`, labels[k] || k, color));
+    tr.append(bar, el('span', { class: 'val' }, `${fmt1.format(v)} min`));
+    root.append(tr);
+  }
+}
+bars('bars-funcion', M.por_funcion, FUNCION, 'var(--s-misional)');
+bars('bars-subtipo', M.por_subtipo, SUBTIPO, 'var(--s-nopert)');
+
+// Tabla por congresista
+const tc = document.querySelector('#t-congresistas tbody');
+for (const c of D.congresistas) {
+  const tr = el('tr');
+  tr.append(el('td', {}, c.nombre), el('td', { class: 'num' }, c.intervenciones), el('td', { class: 'num' }, fmt1.format(c.min)),
+    el('td', { class: 'num' }, c.pct_no_pertinente === null ? '—' : c.pct_no_pertinente + '%'),
+    el('td', {}, c.funcion_principal ? FUNCION[c.funcion_principal] : '—'));
+  tc.append(tr);
+}
+
+// Evidencia
+const te = document.querySelector('#t-evidencia tbody');
+for (const s of D.secuencia.filter(s => s.bloque === 'no_pertinente')) {
+  const tr = el('tr');
+  const pg = el('td', { class: 'num' }); pg.append(el('a', { href: `${S.fuente_texto.url}#page=${s.pagina}`, target: '_blank', rel: 'noopener' }, s.pagina));
+  tr.append(el('td', {}, s.orador), el('td', {}, SUBTIPO[s.subtipo] || s.subtipo), el('td', { class: 'cita' }, '«' + s.evidencia + '»'), pg);
+  te.append(tr);
+}
+
+const uni = Object.entries(D.nombres_unificados);
+document.getElementById('lim-nombres').textContent = uni.length
+  ? `Se unificaron variantes de nombre que aparecen en el acta: ${uni.map(([a, b]) => `«${a}» → «${b}»`).join('; ')}.`
+  : 'No fue necesario unificar variantes de nombres.';
+</script>
+</body>
+</html>

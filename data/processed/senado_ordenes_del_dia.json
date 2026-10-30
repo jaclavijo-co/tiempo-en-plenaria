@@ -1,0 +1,2660 @@
+{
+ "sesiones": [
+  {
+   "fecha": "2026-07-22",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-22-de-julio-2026",
+   "hora_citacion": "10:00a.m.",
+   "proyectos": [],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "GZ7fby8xMPE",
+     "duracion_min": 350
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-07-28",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-28-de-julio-2026",
+   "hora_citacion": "10:00a.m.",
+   "proyectos": [],
+   "menciones_control_politico": 1,
+   "video": [
+    {
+     "video_id": "2oylVFNK2Po",
+     "duracion_min": 435
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-07-29",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-29-de-julio-2026",
+   "hora_citacion": "2:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 014/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara patrimonio cultura e inmaterial de la nación la leyenda del hombre caimán y el festival nacional de la leyenda del hombre caimán del municipio de plato (magdalena) y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 063/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se promueve la cultura de adopción y protección para parques sanos y seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 082/2025 S",
+     "camara": null,
+     "titulo": "Por medio la cual se establece la educación sobre autoexamen, prevención y cuidado de las mamas en todas las instituciones educativas del país, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 249/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 272/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración del municipio de el Líbano, departamento del Tolima, y se rinde homenaje a su historia, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 187/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior."
+    },
+    {
+     "id": "PL 189/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 026/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM"
+    },
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "xZ6QRVzI6bI",
+     "duracion_min": 264
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-05",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-05-de-agosto-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 014/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara patrimonio cultura e inmaterial de la nación la leyenda del hombre caimán y el festival nacional de la leyenda del hombre caimán del municipio de plato (magdalena) y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 063/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se promueve la cultura de adopción y protección para parques sanos y seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 082/2025 S",
+     "camara": null,
+     "titulo": "Por medio la cual se establece la educación sobre autoexamen, prevención y cuidado de las mamas en todas las instituciones educativas del país, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 249/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 272/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración del municipio de el Líbano, departamento del Tolima, y se rinde homenaje a su historia, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 187/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior."
+    },
+    {
+     "id": "PL 189/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 026/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM"
+    },
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-11",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-11-de-agosto-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 014/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara patrimonio cultura e inmaterial de la nación la leyenda del hombre caimán y el festival nacional de la leyenda del hombre caimán del municipio de plato (magdalena) y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 063/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se promueve la cultura de adopción y protección para parques sanos y seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 082/2025 S",
+     "camara": null,
+     "titulo": "Por medio la cual se establece la educación sobre autoexamen, prevención y cuidado de las mamas en todas las instituciones educativas del país, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 249/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 272/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración del municipio de el Líbano, departamento del Tolima, y se rinde homenaje a su historia, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 187/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior."
+    },
+    {
+     "id": "PL 189/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 026/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM"
+    },
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-12",
+   "tipo": "congreso_pleno",
+   "documento": "orden-del-di-a-congreso-pleno-12-de-agosto-2026",
+   "hora_citacion": "9:00a.m.",
+   "proyectos": [],
+   "menciones_control_politico": 1,
+   "video": [],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-18",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-18-de-agosto-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 063/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se promueve la cultura de adopción y protección para parques sanos y seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 082/2025 S",
+     "camara": null,
+     "titulo": "Por medio la cual se establece la educación sobre autoexamen, prevención y cuidado de las mamas en todas las instituciones educativas del país, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 249/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 272/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración del municipio de el Líbano, departamento del Tolima, y se rinde homenaje a su historia, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 187/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior."
+    },
+    {
+     "id": "PL 189/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 026/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM"
+    },
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "v9NuXpxoO6Y",
+     "duracion_min": 235
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-19",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-19-de-agosto-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 187/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior."
+    },
+    {
+     "id": "PL 189/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 026/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM"
+    },
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "JC4Fcr_SvjY",
+     "duracion_min": 250
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-25",
+   "tipo": "congreso_pleno",
+   "documento": "orden-del-dia-congreso-pleno-25-de-agosto-2026-1",
+   "hora_citacion": "5:00p.m.",
+   "proyectos": [],
+   "menciones_control_politico": 1,
+   "video": [],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-08-26",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-26-de-agosto-2026",
+   "hora_citacion": "10:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "hLzZLTR4wy4",
+     "duracion_min": 192
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-01",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-01-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 068/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 164, 250° y 251 de la Ley 1437 de 2011 – LEY MARUJA VIERA"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "1mZAf9_XPt8",
+     "duracion_min": 237
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-02",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-02-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 192/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 068/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 164, 250° y 251 de la Ley 1437 de 2011 – LEY MARUJA VIERA"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "bpOHBLGwLIs",
+     "duracion_min": 220
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-08",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-08-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 012/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 047/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica"
+    },
+    {
+     "id": "PL 190/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 068/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 164, 250° y 251 de la Ley 1437 de 2011 – LEY MARUJA VIERA"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "0_5CaokwXkY",
+     "duracion_min": 199
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-09",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-09-de-septiembre-2026",
+   "hora_citacion": "2:00p.m.",
+   "proyectos": [],
+   "menciones_control_politico": 3,
+   "video": [
+    {
+     "video_id": "lgRlAl2WEig",
+     "duracion_min": 261
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-15",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-15-de-septiembre-2026-modificado",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 269/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte."
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 305/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 010/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración de los 425 años de la fundación del municipio de Soacha en el departamento de Cundinamarca, rinde homenaje a sus habitantes y se dictan otras disposiciones – Ley Varón del Sol"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 039/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "6tQfEjN3NuY",
+     "duracion_min": 229
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-16",
+   "tipo": "plenaria",
+   "documento": "orden-del-di-a-16-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [],
+   "menciones_control_politico": 1,
+   "video": [
+    {
+     "video_id": "9_IILEt6W1s",
+     "duracion_min": 290
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-22",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-22-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 244/2024 S",
+     "camara": "429/2015 C",
+     "titulo": "Por medio de la cual se crea la política pública de estado de «Familias Guardabosques» y se establece el marco normativo para su implementación en todo el territorio nacional"
+    },
+    {
+     "id": "PL 291/2025 S",
+     "camara": "348/2024 C",
+     "titulo": "Por medio de la cual se exonera del pago de impuestos a los vehículos automotores a cargo de los Bomberos de Colombia"
+    },
+    {
+     "id": "PL 345/2024 S",
+     "camara": "056/2024 C",
+     "titulo": "Por la cual se establecen criterios y límites para la disminución de los requisitos mínimos para acceder a empleos de nivel directivo del orden nacional y para integrar juntas directivas de empresas con participación estatal del orden nacional, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 072/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 068/2025 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 164, 250° y 251 de la Ley 1437 de 2011 – LEY MARUJA VIERA"
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviviente para alcaldes y gobernadores por parentesco con congresistas."
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 305/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 010/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración de los 425 años de la fundación del municipio de Soacha en el departamento de Cundinamarca, rinde homenaje a sus habitantes y se dictan otras disposiciones – Ley Varón del Sol"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 039/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "0Qouk8NXC-8",
+     "duracion_min": 162
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-23",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-23-de-septiembre-2026",
+   "hora_citacion": "11:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 367/2026 S",
+     "camara": "014/2025 C",
+     "titulo": "Por medio de la cual se declara patrimonio cultural de la nación el festival del arroz de la ciudad de aguazul y se autorizan apropiaciones presupuestales"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 010/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración de los 425 años de la fundación del municipio de Soacha en el departamento de Cundinamarca, rinde homenaje a sus habitantes y se dictan otras disposiciones – Ley Varón del Sol"
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociaciones público privadas y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 305/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 039/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "lfbKdi4WZDA",
+     "duracion_min": 172
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-29",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-29-de-septiembre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 010/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación se asocia a la conmemoración de los 425 años de la fundación del municipio de Soacha en el departamento de Cundinamarca, rinde homenaje a sus habitantes y se dictan otras disposiciones – Ley Varón del Sol"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 305/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 039/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "ALwFpGrnECk",
+     "duracion_min": 250
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-09-30",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-30-de-septiembre-2026",
+   "hora_citacion": "2:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 305/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 039/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "aPTCTJc73Qw",
+     "duracion_min": 200
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-13",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-13-de-octubre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 002/2025 S",
+     "camara": null,
+     "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 4,
+   "video": [
+    {
+     "video_id": "V-VpiDAhdyA",
+     "duracion_min": 239
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-14",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-14-de-octubre-2026",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 121/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores"
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 106/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "-qksE-3-zJM",
+     "duracion_min": 207
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-15",
+   "tipo": "oposicion",
+   "documento": "orden-del-dia-15-de-octubre-2026-de-la-oposicion",
+   "hora_citacion": "10:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 111/2026 S",
+     "camara": "152/2026 C",
+     "titulo": "Por la cual se decreta el presupuesto de rentas y recursos de capital y Ley de apropiaciones para la vigencia fiscal del 1° de enero al 31 de diciembre de 2027"
+    }
+   ],
+   "menciones_control_politico": 2,
+   "video": [
+    {
+     "video_id": "eicmT5WBoow",
+     "duracion_min": 362
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-19",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-19-de-octubre-2026",
+   "hora_citacion": "9:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 111/2026 S",
+     "camara": "152/2026 C",
+     "titulo": "Por la cual se decreta el presupuesto de rentas y recursos de capital y Ley de apropiaciones para la vigencia fiscal del 1° de enero al 31 de diciembre de 2027"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "OuCwGRxdQLk",
+     "duracion_min": 715
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-20",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-20-de-octubre-2026-261019-230121",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    }
+   ],
+   "menciones_control_politico": 5,
+   "video": [
+    {
+     "video_id": "WJr1uMFJ8so",
+     "duracion_min": 298
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-27",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-27-de-octubre-2026-261025-114059",
+   "hora_citacion": "3:00p.m.",
+   "proyectos": [
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 106/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PAL 009/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico"
+    },
+    {
+     "id": "PL 295/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviniente para alcaldes y gobernadores por parentesco con congresistas"
+    }
+   ],
+   "menciones_control_politico": 4,
+   "video": [
+    {
+     "video_id": "b2OLAKOiNOc",
+     "duracion_min": 459
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-28",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-modificado-28-de-octubre-2026",
+   "hora_citacion": "3:30p.m.",
+   "proyectos": [
+    {
+     "id": "PL 428/2025 S",
+     "camara": "072/2024 C",
+     "titulo": "Por medio del cual se crean y regulan los incentivos de las acciones populares de que trata la Ley 472 de 1998 y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 106/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PAL 009/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociación pública privadas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PAL 007/2026 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia"
+    },
+    {
+     "id": "PL 107/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se promueve el fortalecimiento de la inclusión crediticia para la población vulnerable, micronegocios, trabajadores informales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 021/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen medidas de recuperación productiva y rehabilitación crediticia para pequeños y medianos productores agropecuarios afectados por situaciones de crisis y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 169/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 12 A de la Ley 549 de 1999, adicionado por la Ley 2468 de 2025, para establecer un mecanismo excepcional de desahorro de excedentes pensionales por sector y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "Xp5kk-CDbhM",
+     "duracion_min": 183
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-29",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-29-de-octubre-2026",
+   "hora_citacion": "2:30p.m.",
+   "proyectos": [
+    {
+     "id": "PL 113/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 011/2025 S",
+     "camara": null,
+     "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 106/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PAL 009/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociación pública privadas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PAL 007/2026 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia"
+    },
+    {
+     "id": "PL 107/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se promueve el fortalecimiento de la inclusión crediticia para la población vulnerable, micronegocios, trabajadores informales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 021/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen medidas de recuperación productiva y rehabilitación crediticia para pequeños y medianos productores agropecuarios afectados por situaciones de crisis y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 169/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 12 A de la Ley 549 de 1999, adicionado por la Ley 2468 de 2025, para establecer un mecanismo excepcional de desahorro de excedentes pensionales por sector y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [
+    {
+     "video_id": "XJLA-My7pTQ",
+     "duracion_min": 154
+    }
+   ],
+   "aplazada": null
+  },
+  {
+   "fecha": "2026-10-30",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-30-de-octubre-2026",
+   "hora_citacion": "7:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 296/2026 S",
+     "camara": "433/2026 C",
+     "titulo": "Por medio de la cual se modifica, adiciona y prorroga la Ley 418 de 1997, sus prórrogas y se establece la política estatal para garantizar el orden público, lograr una intervención territorial integral y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 0,
+   "video": [],
+   "aplazada": null
+  }
+ ],
+ "proyectos": [
+  {
+   "id": "PL 061/2025 S",
+   "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones",
+   "veces_en_orden_del_dia": 19,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 102/2025 S",
+   "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional",
+   "veces_en_orden_del_dia": 19,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 119/2025 S",
+   "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 19,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 224/2025 S",
+   "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica.",
+   "veces_en_orden_del_dia": 19,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 074/2025 S",
+   "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 15,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 178/2025 S",
+   "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 14,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 311/2025 S",
+   "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociación pública privadas y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 14,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 295/2025 S",
+   "titulo": "Por medio de la cual se modifica la Ley 136 de 1994 y la Ley 2200 de 2022, estableciendo una incompatibilidad sobreviniente para alcaldes y gobernadores por parentesco con congresistas",
+   "veces_en_orden_del_dia": 12,
+   "primera": "2026-07-29",
+   "ultima": "2026-10-27"
+  },
+  {
+   "id": "PL 072/2025 S",
+   "titulo": "Por medio del cual se establece el programa nacional de tamizaje oncológico y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 11,
+   "primera": "2026-07-29",
+   "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 206/2025 S",
+   "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 11,
+   "primera": "2026-09-08",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 011/2025 S",
+   "titulo": "por medio del cual la nación se asocia a la celebración de los doscientos ocho (208) años de la fundación del municipio de Achí, en el departamento de Bolívar, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 10,
+   "primera": "2026-09-22",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 012/2025 S",
+   "titulo": "Por medio de la cual se reconocen a la naturaleza y a los animales como víctimas del conflicto armado interno en Colombia, se ordena su reparación, se fortalecen mecanismos de protección, se prohíbe el uso de animales como medios o instrumentos de guerra y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 9,
+   "primera": "2026-07-29",
+   "ultima": "2026-09-08"
+  },
+  {
+   "id": "PL 047/2025 S",
+   "titulo": "Por medio de la cual se fomenta la investigación, desarrollo y producción de tecnologías en salud a partir de emprendimientos de base científico tecnológica",
+   "veces_en_orden_del_dia": 9,
+   "primera": "2026-07-29",
+   "ultima": "2026-09-08"
+  },
+  {
+   "id": "PL 190/2025 S",
+   "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 9,
+   "primera": "2026-07-29",
+   "ultima": "2026-09-08"
+  },
+  {
+   "id": "PL 103/2025 S",
+   "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-09-23",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 113/2026 S",
+   "titulo": "Por el cual se establece la creación de la política pública para promover la formación por ciclos cortos, enfocados en tecnología, orientada a la empleabilidad, y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-09-29",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 192/2025 S",
+   "titulo": "Por medio de la cual se adoptan medidas para prevenir, corregir y sancionar conductas que afectan la salud mental en el marco del sistema de residencias médicas en Colombia y otras prácticas profesionales y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-07-29",
+   "ultima": "2026-09-02"
+  },
+  {
+   "id": "PL 197/2025 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-09-23",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 223/2025 S",
+   "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-09-23",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 002/2025 S",
+   "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-08",
+   "ultima": "2026-10-13"
+  },
+  {
+   "id": "PL 086/2025 S",
+   "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-15",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 269/2025 S",
+   "titulo": "Por medio de la cual se establecen mecanismos de orientación vocacional deportiva en la educación básica y media, con el fin de impulsar proyectos de vida en el deporte.",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-08-18",
+   "ultima": "2026-09-15"
+  },
+  {
+   "id": "PL 087/2026 S",
+   "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 088/2026 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 089/2026 S",
+   "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 090/2026 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 121/2025 S",
+   "titulo": "Por medio de la cual se declara y exalta como patrimonio cultural inmaterial de la nación el festival de música campesina de Floridablanca, Santander y todas sus manifestaciones culturales, en reconocimiento del estado a sus protagonistas y portadores",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-22",
+   "ultima": "2026-10-14"
+  },
+  {
+   "id": "PL 124/2025 S",
+   "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 322/2025 S",
+   "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 6,
+   "primera": "2026-09-30",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 026/2025 S",
+   "titulo": "Por medio de la cual se modifica el artículo 17 de la ley de 1993 en procura de la sostenibilidad del servicio prestado por el instituto de hidrología y estudios ambientales - IDEAM",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-19"
+  },
+  {
+   "id": "PL 039/2025 S",
+   "titulo": "Por medio de la cual se incentiva el reciclaje de madera y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-09-15",
+   "ultima": "2026-09-30"
+  },
+  {
+   "id": "PL 187/2025 S",
+   "titulo": "Por medio de la cual se crean becas deportivas para el acceso al programa de educación básica, media y superior.",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-19"
+  },
+  {
+   "id": "PL 189/2025 S",
+   "titulo": "Por medio de la cual se integra una política para el emprendimiento de los jóvenes y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-19"
+  },
+  {
+   "id": "PL 305/2025 S",
+   "titulo": "Por medio de la cual se establecen las condiciones para la prescripción de los depósitos en custodia en condición especial y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-09-15",
+   "ultima": "2026-09-30"
+  },
+  {
+   "id": "PL 010/2025 S",
+   "titulo": "Por medio de la cual la nación se asocia a la conmemoración de los 425 años de la fundación del municipio de Soacha en el departamento de Cundinamarca, rinde homenaje a sus habitantes y se dictan otras disposiciones – Ley Varón del Sol",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-09-15",
+   "ultima": "2026-09-29"
+  },
+  {
+   "id": "PL 063/2025 S",
+   "titulo": "Por medio de la cual se promueve la cultura de adopción y protección para parques sanos y seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-18"
+  },
+  {
+   "id": "PL 068/2025 S",
+   "titulo": "Por medio del cual se modifican los artículos 164, 250° y 251 de la Ley 1437 de 2011 – LEY MARUJA VIERA",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-09-01",
+   "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 082/2025 S",
+   "titulo": "Por medio la cual se establece la educación sobre autoexamen, prevención y cuidado de las mamas en todas las instituciones educativas del país, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-18"
+  },
+  {
+   "id": "PL 106/2026 S",
+   "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-10-14",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 249/2025 S",
+   "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-18"
+  },
+  {
+   "id": "PL 272/2025 S",
+   "titulo": "Por medio de la cual la nación se asocia a la conmemoración del municipio de el Líbano, departamento del Tolima, y se rinde homenaje a su historia, y se dictan otras disposiciones.",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-18"
+  },
+  {
+   "id": "PAL 009/2026 S",
+   "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico",
+   "veces_en_orden_del_dia": 3,
+   "primera": "2026-10-27",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 014/2025 S",
+   "titulo": "Por medio de la cual se declara patrimonio cultura e inmaterial de la nación la leyenda del hombre caimán y el festival nacional de la leyenda del hombre caimán del municipio de plato (magdalena) y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 3,
+   "primera": "2026-07-29",
+   "ultima": "2026-08-11"
+  },
+  {
+   "id": "PAL 007/2026 S",
+   "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia",
+   "veces_en_orden_del_dia": 2,
+   "primera": "2026-10-28",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 021/2026 S",
+   "titulo": "Por medio de la cual se establecen medidas de recuperación productiva y rehabilitación crediticia para pequeños y medianos productores agropecuarios afectados por situaciones de crisis y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 2,
+   "primera": "2026-10-28",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 107/2026 S",
+   "titulo": "Por la cual se promueve el fortalecimiento de la inclusión crediticia para la población vulnerable, micronegocios, trabajadores informales y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 2,
+   "primera": "2026-10-28",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 169/2026 S",
+   "titulo": "Por medio de la cual se modifica el artículo 12 A de la Ley 549 de 1999, adicionado por la Ley 2468 de 2025, para establecer un mecanismo excepcional de desahorro de excedentes pensionales por sector y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 2,
+   "primera": "2026-10-28",
+   "ultima": "2026-10-29"
+  },
+  {
+   "id": "PL 111/2026 S",
+   "titulo": "Por la cual se decreta el presupuesto de rentas y recursos de capital y Ley de apropiaciones para la vigencia fiscal del 1° de enero al 31 de diciembre de 2027",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-10-19",
+   "ultima": "2026-10-19"
+  },
+  {
+   "id": "PL 244/2024 S",
+   "titulo": "Por medio de la cual se crea la política pública de estado de «Familias Guardabosques» y se establece el marco normativo para su implementación en todo el territorio nacional",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-09-22",
+   "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 291/2025 S",
+   "titulo": "Por medio de la cual se exonera del pago de impuestos a los vehículos automotores a cargo de los Bomberos de Colombia",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-09-22",
+   "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 296/2026 S",
+   "titulo": "Por medio de la cual se modifica, adiciona y prorroga la Ley 418 de 1997, sus prórrogas y se establece la política estatal para garantizar el orden público, lograr una intervención territorial integral y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-10-30",
+   "ultima": "2026-10-30"
+  },
+  {
+   "id": "PL 345/2024 S",
+   "titulo": "Por la cual se establecen criterios y límites para la disminución de los requisitos mínimos para acceder a empleos de nivel directivo del orden nacional y para integrar juntas directivas de empresas con participación estatal del orden nacional, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-09-22",
+   "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 367/2026 S",
+   "titulo": "Por medio de la cual se declara patrimonio cultural de la nación el festival del arroz de la ciudad de aguazul y se autorizan apropiaciones presupuestales",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-09-23",
+   "ultima": "2026-09-23"
+  },
+  {
+   "id": "PL 428/2025 S",
+   "titulo": "Por medio del cual se crean y regulan los incentivos de las acciones populares de que trata la Ley 472 de 1998 y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-10-28",
+   "ultima": "2026-10-28"
+  }
+ ],
+ "fechas_sin_orden_del_dia": [
+  "2026-07-20"
+ ]
+}

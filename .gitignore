@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.DS_Store
+
+# Fuentes pesadas que se pueden volver a descargar de su origen oficial
+data/raw/gaceta_*/
+data/descargas/*/audio.*

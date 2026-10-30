@@ -1,0 +1,31 @@
+{
+  "camara": "Cámara de Representantes",
+  "fecha": "2026-07-28",
+  "tipo": "Sesión ordinaria",
+  "fuente_texto": {
+    "documento": "Gaceta del Congreso n.º 1201 de 2026 (4 de septiembre de 2026)",
+    "acta": "Acta de Plenaria n.º 3",
+    "url": "https://www.redjurista.com/Compilaciones2018/gacetasCongreso/2026/gc_1201_2026.pdf",
+    "paginas": "4-71"
+  },
+  "fuente_video": {
+    "canal": "Canal Congreso Colombia",
+    "video_id": "8Ej8B9CvaX0",
+    "url": "https://www.youtube.com/watch?v=8Ej8B9CvaX0",
+    "duracion_min": 482
+  },
+  "horas": {
+    "citacion": "09:00",
+    "apertura_registro": "09:27",
+    "quorum_decisorio": "10:01",
+    "inicio_sesion": "10:03",
+    "cierre": "17:26"
+  },
+  "quorum": {"registrados_al_quorum": 141},
+  "orden_del_dia": [
+    {"punto": "I", "texto": "Llamado a lista y verificación del quórum"},
+    {"punto": "II", "texto": "Himno Nacional de la República de Colombia"},
+    {"punto": "III", "texto": "Lo que propongan los honorables Representantes (proposiciones: ratificación o cambio de planchas de comisiones constitucionales y legales, traslado de sede a Cali para la posesión presidencial del 7 de agosto, proposiciones de control político y de audiencias públicas)"},
+    {"punto": "IV", "texto": "Anuncio de proyectos (Art. 8, Acto Legislativo 1 de 2003)"}
+  ]
+}
