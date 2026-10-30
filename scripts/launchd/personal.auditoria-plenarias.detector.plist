@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>personal.auditoria-plenarias.detector</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>-E</string>
+    <string>-P</string>
+    <string>/Users/joselito/Proyecto Auditoria Congreso/scripts/detectar_sesiones.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/opt/homebrew/bin:/Users/joselito/.npm-global/bin:/Users/joselito/.local/bin:/usr/bin:/bin</string>
+  </dict>
+  <!-- Todos los días a las 7:00: plenarias nuevas del canal y documentos del Senado; sube a GitHub -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>7</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>Nice</key>
+  <integer>10</integer>
+  <key>StandardOutPath</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso/data/rutinas/detector.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso/data/rutinas/detector.log</string>
+</dict>
+</plist>

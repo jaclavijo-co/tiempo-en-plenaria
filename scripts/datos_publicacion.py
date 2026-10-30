@@ -1,7 +1,7 @@
 """Arma los archivos de datos del informe público a partir de las fuentes ya procesadas.
 
 Entradas: catálogo de videos, órdenes del día del Senado, inventario de la Gaceta y resumen del piloto.
-Salidas en publicacion/: sesiones.csv, agenda_senado.csv, piloto_camara_2026-07-28.csv
+Salidas en publicacion/: sesiones.csv, agenda_senado.csv, piloto_camara_2026-07-28.csv, corte.csv
 """
 import csv
 import json
@@ -9,8 +9,9 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
-CORTE = "2026-10-29"
 INICIO = "2026-07-20"
+# el período llega hasta la última plenaria transmitida que está en el catálogo
+CORTE = max(f["fecha"] for f in csv.DictReader(open("data/catalogo/plenarias.csv")))
 SALIDA = Path("publicacion")
 # Motivos tomados de los comunicados de la Secretaría General del Senado
 NOTAS_SENADO = {
@@ -26,7 +27,7 @@ def dias(a: str, b: str) -> int:
 
 def main():
     videos = defaultdict(int)
-    for f in csv.DictReader(open("data/catalogo/plenarias_2026-07-20_a_2026-10-29.csv")):
+    for f in csv.DictReader(open("data/catalogo/plenarias.csv")):
         videos[(f["camara"], f["fecha"])] += int(f["duracion_min"])
 
     ordenes = json.load(open("data/processed/senado_ordenes_del_dia.json"))
@@ -34,8 +35,11 @@ def main():
               if s["tipo"] in ("plenaria", "oposicion") and s["fecha"] and s["fecha"] <= CORTE}
 
     actas = {}
+    gacetas_leidas = []
     for l in open("data/catalogo/gacetas_2026.jsonl"):
         g = json.loads(l)
+        if g.get("fecha_publicacion") and "error" not in g:
+            gacetas_leidas.append(g)
         for a in g.get("actas", []):
             f = a.get("fecha_sesion")
             if a["plenaria"] and f and INICIO <= f <= CORTE and g.get("fecha_publicacion"):
@@ -82,9 +86,14 @@ def main():
         {"tramo": "retraso_inicio", "minutos": resumen["retraso_inicio"]},
     ]
 
+    corte = [{"inicio": INICIO, "fin": CORTE,
+              "gaceta_hasta": max(g["fecha_publicacion"] for g in gacetas_leidas if g["fecha_publicacion"] <= date.today().isoformat()),
+              "gaceta_num_max": max(g["gaceta"] for g in gacetas_leidas),
+              "actualizado": date.today().isoformat()}]
+
     SALIDA.mkdir(exist_ok=True)
     for nombre, datos in (("sesiones.csv", filas), ("agenda_senado.csv", agenda),
-                          ("piloto_camara_2026-07-28.csv", piloto)):
+                          ("piloto_camara_2026-07-28.csv", piloto), ("corte.csv", corte)):
         with open(SALIDA / nombre, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(datos[0]))
             w.writeheader()

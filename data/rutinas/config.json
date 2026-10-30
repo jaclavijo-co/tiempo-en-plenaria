@@ -1,0 +1,4 @@
+{
+ "clasificar": false,
+ "nota": "Se activa cuando se decida el motor de clasificación (tarea programada de Claude o llave de API propia) y esté aprobada la rúbrica v0.2."
+}

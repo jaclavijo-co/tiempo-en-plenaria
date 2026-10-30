@@ -44,6 +44,19 @@ python scripts/reporte.py camara_2026-07-28
 - **Video completo** de cada plenaria en el canal de YouTube Canal Congreso Colombia: tiempos reales.
 - **Orden del día** publicado por cada cámara.
 
+## Rutinas automáticas
+
+Corren en el Mac del mantenedor con `launchd` (definiciones en `scripts/launchd/`) y suben sus resultados a
+GitHub desde la rama `main`.
+
+| Cuándo | Script | Qué hace |
+|---|---|---|
+| Cada 30 min | `descargador_lento.py` | Baja el audio de un video como máximo cada 3 horas, sesiones nuevas primero, y lo transcribe. Ante un bloqueo de YouTube espera 2, 4, 8, 16 y 24 horas, y se detiene tras cinco bloqueos seguidos. |
+| Diario, 7:00 | `detectar_sesiones.py` | Agrega al catálogo y a la cola las plenarias nuevas de Canal Congreso y baja los órdenes del día y comunicados nuevos del Senado. |
+| Lunes, 6:30 | `corte_semanal.py` | Busca actas nuevas en la Gaceta, regenera los datos del informe, despliega el sitio y deja el resumen en `reportes/semanal/`. La clasificación se activa en `data/rutinas/config.json`. |
+
+Sitio público: https://tiempo-en-plenaria.vercel.app (carpeta `sitio/`).
+
 ## Proyectos de referencia
 - [EmpoweredVote/on-the-record](https://github.com/EmpoweredVote/on-the-record): transcripción de
   reuniones públicas con atribución de orador (pyannote + faster-whisper + roster, patrones de llamado a

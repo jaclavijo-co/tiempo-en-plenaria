@@ -1,7 +1,7 @@
 """Extrae de los órdenes del día oficiales del Senado la hora de citación y los proyectos agendados.
 
 Uso:
-  python scripts/ordenes_del_dia.py data/processed/orden_del_dia_senado data/catalogo/plenarias_2026-07-20_a_2026-10-29.csv
+  python scripts/ordenes_del_dia.py data/processed/orden_del_dia_senado data/catalogo/plenarias.csv
 Escribe data/processed/senado_ordenes_del_dia.json
 """
 import csv

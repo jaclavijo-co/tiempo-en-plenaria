@@ -12,3 +12,6 @@ data/descargas/launchd.log
 
 # Enlace local con el proyecto de Vercel
 sitio/.vercel/
+
+# Registros locales de las rutinas
+data/rutinas/*.log

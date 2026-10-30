@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tiempo en plenaria</title>
-<meta name="description" content="Qué dicen los documentos oficiales sobre las plenarias del Congreso de Colombia en los primeros 100 días del período 2026-2030.">
-<meta property="og:title" content="Tiempo en plenaria: los primeros 100 días">
+<meta name="description" content="Qué dicen los documentos oficiales sobre las plenarias del Congreso de Colombia desde la instalación del período 2026-2030.">
+<meta property="og:title" content="Tiempo en plenaria">
 <meta property="og:description" content="Plenarias transmitidas, actas publicadas y proyectos que no salen del orden del día del Senado, con datos abiertos.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,9 +90,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
 <body>
 <main>
   <header>
-    <p class="eyebrow">Congreso de la República de Colombia · 20 de julio al 29 de octubre de 2026</p>
-    <h1>Tiempo en plenaria: los primeros 100 días</h1>
-    <p class="lede">En este período se transmitieron <span class="b" data-num="realizadas">—</span> plenarias del Senado y la Cámara. Solo <span class="b" data-num="con_acta">—</span> tienen su acta publicada en la Gaceta del Congreso, el registro oficial de lo que se dijo y se decidió en cada sesión, según las gacetas publicadas hasta el 22 de octubre.</p>
+    <p class="eyebrow">Congreso de la República de Colombia · período 2026-2030 · actualizado el <span data-fecha="actualizado">—</span></p>
+    <h1>Tiempo en plenaria desde la instalación del Congreso</h1>
+    <p class="lede">Entre el 20 de julio y el <span data-fecha="fin">—</span> se transmitieron <span class="b" data-num="realizadas">—</span> plenarias del Senado y la Cámara. Solo <span class="b" data-num="con_acta">—</span> tienen su acta publicada en la Gaceta del Congreso, el registro oficial de lo que se dijo y se decidió en cada sesión, según las gacetas publicadas hasta el <span data-fecha="gaceta_hasta">—</span>.</p>
   </header>
 
   <section class="tiles" aria-label="Cifras del período">
@@ -109,7 +109,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     <div class="tile">
       <span class="n" data-num="con_acta">—</span>
       <span class="l">Actas publicadas</span>
-      <span class="s">De <span class="b" data-num="realizadas">—</span> plenarias transmitidas, en gacetas hasta el 22 de octubre</span>
+      <span class="s">De <span class="b" data-num="realizadas">—</span> plenarias transmitidas, en gacetas hasta el <span data-fecha="gaceta_hasta">—</span></span>
     </div>
     <div class="tile">
       <span class="n" data-num="rezago_mediana">—</span>
@@ -142,7 +142,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
   <div class="grid2">
     <section class="card" id="agenda">
       <h2>Proyectos que no salen del orden del día del Senado</h2>
-      <p class="note">Veces que cada proyecto apareció en los órdenes del día oficiales del Senado, de <span class="b" data-num="convocatorias_con_proyectos">—</span> convocatorias de plenaria con proyectos entre el 29 de julio y el 29 de octubre. Los 15 más repetidos.</p>
+      <p class="note">Veces que cada proyecto apareció en los órdenes del día oficiales del Senado, de <span class="b" data-num="convocatorias_con_proyectos">—</span> convocatorias de plenaria con proyectos entre el 29 de julio y el <span data-fecha="fin">—</span>. Los 15 más repetidos.</p>
       <div class="chart" id="g-agenda" style="min-height: 400px"></div>
     </section>
     <section class="card" id="rezago">
@@ -183,20 +183,22 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     <h2>De dónde salen estas cifras</h2>
     <ul class="plain">
       <li>Órdenes del día y comunicados oficiales de la Secretaría General del Senado, sesión por sesión.</li>
-      <li>Índice de cada número de la Gaceta del Congreso de 2026, del 860 al 1612, leído de la copia pública en redjurista.com para saber qué actas de plenaria ya se publicaron. Cada número se puede verificar en el sitio de la Imprenta Nacional. Algunos números no estaban disponibles en esa copia.</li>
+      <li>Índice de cada número de la Gaceta del Congreso de 2026, del 860 al <span data-dato="gaceta_num_max">—</span>, leído de la copia pública en redjurista.com para saber qué actas de plenaria ya se publicaron. Cada número se puede verificar en el sitio de la Imprenta Nacional. Algunos números no estaban disponibles en esa copia.</li>
       <li>Duración de las transmisiones completas de Canal Congreso en YouTube.</li>
-      <li>Que una sesión no tenga acta en esta página no quiere decir que el acta no exista: quiere decir que no se ha publicado o que salió después del 22 de octubre.</li>
+      <li>Que una sesión no tenga acta en esta página no quiere decir que el acta no exista: quiere decir que no se ha publicado o que salió después del <span data-fecha="gaceta_hasta">—</span>.</li>
       <li>Lo que sigue: analizar el video de cada plenaria de punta a punta y comparar lo que se dijo con lo que registra el acta (<a href="metodologia/comparacion_acta_video.md">método</a>).</li>
     </ul>
     <p class="note">Datos abiertos: <a href="datos/sesiones.csv" download>plenarias</a> · <a href="datos/agenda_senado.csv" download>proyectos en el orden del día</a> · <a href="datos/piloto_camara_2026-07-28.csv" download>piloto</a> · <a href="metodologia/rubrica.md">rúbrica</a></p>
   </section>
 
-  <footer>Actualizado el 29 de octubre de 2026. Auditoría ciudadana con metodología abierta: cualquier persona puede revisar los datos y el método.</footer>
+  <footer>Actualizado el <span data-fecha="actualizado">—</span>. Se actualiza cada lunes. Auditoría ciudadana con metodología abierta: cualquier persona puede revisar los datos y el método.</footer>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script>
-const FUENTES = { sesiones: 'datos/sesiones.csv', agenda: 'datos/agenda_senado.csv', piloto: 'datos/piloto_camara_2026-07-28.csv' };
+const FUENTES = { sesiones: 'datos/sesiones.csv', agenda: 'datos/agenda_senado.csv', piloto: 'datos/piloto_camara_2026-07-28.csv', corte: 'datos/corte.csv' };
+const MESES_LARGOS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+const fechaLarga = (s) => { const d = parse(s); return `${d.getUTCDate()} de ${MESES_LARGOS[d.getUTCMonth()]} de ${d.getUTCFullYear()}`; };
 const fmtN = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 });
 const fmt1 = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 1 });
 const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
@@ -342,8 +344,10 @@ function fallo(msg) {
   document.querySelectorAll('.chart').forEach((el) => el.replaceChildren(Object.assign(document.createElement('div'), { className: 'fail', textContent: msg })));
 }
 
-Promise.all(Object.values(FUENTES).map((u) => d3.csv(u))).then(([sesiones, agenda, piloto]) => {
+Promise.all(Object.values(FUENTES).map((u) => d3.csv(u))).then(([sesiones, agenda, piloto, corte]) => {
   const valores = { ...resumen(sesiones, agenda), ...resumenPiloto(piloto) };
+  document.querySelectorAll('[data-dato]').forEach((el) => { el.textContent = corte[0][el.dataset.dato] || '—'; });
+  document.querySelectorAll('[data-fecha]').forEach((el) => { const v = corte[0][el.dataset.fecha]; el.textContent = v ? fechaLarga(v) : '—'; });
   document.querySelectorAll('[data-num]').forEach((el) => {
     const v = valores[el.dataset.num];
     el.textContent = v === null || v === undefined || Number.isNaN(v) ? '—' : fmtN.format(v);

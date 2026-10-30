@@ -71,21 +71,31 @@ def analizar(n: int, texto: str) -> dict:
 
 def main():
     desde, hasta, salida = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
+    # la copia pública va unos días atrás de la Imprenta: tras varios números seguidos sin publicar, se para
+    parar_tras = int(sys.argv[4]) if len(sys.argv) > 4 else 0
     hechos = set()
     try:
         hechos = {json.loads(l)["gaceta"] for l in open(salida)}
     except FileNotFoundError:
         pass
+    faltantes_seguidos = 0
     with open(salida, "a", encoding="utf-8") as f:
         for n in range(desde, hasta + 1):
             if n in hechos:
                 continue
+            if parar_tras and faltantes_seguidos >= parar_tras:
+                break
             try:
                 fila = analizar(n, primera_pagina(n))
             except urllib.error.HTTPError as e:
                 fila = {"gaceta": n, "error": f"HTTP {e.code}"}
             except Exception as e:  # PDF raro: se registra y se revisa a mano
                 fila = {"gaceta": n, "error": str(e)[:120]}
+            faltantes_seguidos = faltantes_seguidos + 1 if fila.get("error") == "HTTP 404" else 0
+            if faltantes_seguidos and parar_tras:
+                # un número aún no publicado no se guarda como error: se vuelve a buscar la próxima semana
+                time.sleep(PAUSA_S)
+                continue
             f.write(json.dumps(fila, ensure_ascii=False) + "\n")
             f.flush()
             time.sleep(PAUSA_S)
