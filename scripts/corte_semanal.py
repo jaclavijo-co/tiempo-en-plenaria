@@ -10,10 +10,11 @@ Uso: python scripts/corte_semanal.py [--sin-publicar]
 """
 import csv
 import json
+import re
 import shutil
 import subprocess
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -85,8 +86,14 @@ def publicar_sitio() -> str:
 
 
 def documentos_senado_de_la_semana() -> list[str]:
-    limite = datetime.now().timestamp() - 7 * 86400
-    return sorted(p.stem for p in (RAIZ / "data" / "raw" / "orden_del_dia_senado").glob("*.pdf") if p.stat().st_mtime >= limite)
+    """Documentos cuya sesión (fecha en el nombre del archivo) cae en los últimos 7 días o después."""
+    desde = (date.today() - timedelta(days=7)).isoformat()
+    docs = []
+    for p in (RAIZ / "data" / "raw" / "orden_del_dia_senado").glob("*.pdf"):
+        m = re.search(r"(\d{1,2})-de-([a-z]+)-(20\d\d)", p.stem)
+        if m and m.group(2) in catalogo.MESES and f"{m.group(3)}-{catalogo.MESES[m.group(2)]:02d}-{int(m.group(1)):02d}" >= desde:
+            docs.append(p.stem)
+    return sorted(docs)
 
 
 def escribir_resumen(actas: list, clasificacion: str, datos: str, sitio: str) -> Path:
