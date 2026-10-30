@@ -8,6 +8,9 @@ asunto en discusión y qué parte se pierde sin sesionar.
 Todo es público: la rúbrica, las instrucciones del clasificador, los datos y el código. Si encuentras
 una clasificación equivocada, abre un reporte con el id de la intervención y la página del acta.
 
+Sitio: https://tiempo-en-plenaria.vercel.app · Qué significa cada dato: `DICCIONARIO-DE-DATOS.md` ·
+Cómo colaborar: `CONTRIBUTING.md` · Conversación abierta: pestaña *Discussions*.
+
 ## Estructura
 
 ```

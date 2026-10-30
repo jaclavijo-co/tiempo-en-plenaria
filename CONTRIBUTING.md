@@ -22,7 +22,8 @@ método abierto. Cualquier ciudadano puede revisar, corregir o construir sobre �
 | Proponer un cambio a la rúbrica | Abre un *issue* con la regla actual, la regla propuesta y al menos dos intervenciones reales donde cambia el resultado. Los cambios se versionan (v0.1, v0.2…). |
 | Revisar clasificaciones a mano | Pide una muestra de validación. La revisión es a ciegas: clasificas sin ver lo que dijo el modelo. |
 | Agregar una fuente | Por ejemplo, los órdenes del día de la Cámara. Abre un *pull request* con el script que la descarga y una muestra del resultado. |
-| Hacer un análisis complementario | Los datos están en `publicacion/` y en el sitio (CSV). Cita la fuente y la fecha de corte. |
+| Hacer un análisis complementario | Los datos están en `publicacion/` y en el sitio (CSV), descritos en `DICCIONARIO-DE-DATOS.md`. Cita la fuente y la fecha de corte. |
+| Conectar otro proyecto ciudadano | Cuéntalo en *Discussions*: qué datos tienen y cuál sería la llave común (sesión, proyecto de ley, video o gaceta). |
 
 ## Cómo trabajar en el repositorio
 
