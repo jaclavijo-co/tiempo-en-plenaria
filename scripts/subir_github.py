@@ -23,6 +23,11 @@ def subir(mensaje: str) -> str:
     commit = git("commit", "-m", mensaje)
     if commit.returncode != 0:
         return "commit falló: " + commit.stderr.strip()[-200:]
+    git("fetch", "origin", "main")
+    # si el historial local y el de GitHub no tienen ningún commit en común (p. ej. tras reescribir el
+    # historial), integrarlos mezclaría los dos: se detiene y lo resuelve una persona
+    if git("merge-base", "HEAD", "origin/main").returncode != 0:
+        return "el historial local y el de GitHub no tienen relación; no se sube hasta revisarlo"
     # otros colaboradores pueden haber subido cambios: se integran antes de subir
     traer = git("pull", "--rebase", "--autostash", "origin", "main")
     if traer.returncode != 0:
