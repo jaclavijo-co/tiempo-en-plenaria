@@ -14,6 +14,7 @@ Uso:
   python scripts/descargador_lento.py --reanudar # quita la detención después de revisar
 """
 import csv
+import fcntl
 import json
 import subprocess
 import sys
@@ -140,7 +141,14 @@ def main():
         print("siguiente:", next((f"{f['camara']} {f['fecha']} {f['video_id']}" for f in filas
                                   if f["estado"] in ("pendiente", "error")), "—"))
     else:
-        turno()
+        # un solo turno a la vez, aunque alguien lo corra a mano mientras la tarea programada trabaja
+        with open(DIR / ".candado", "w") as candado:
+            try:
+                fcntl.flock(candado, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                log("otro turno sigue en curso; se omite este")
+                return
+            turno()
 
 
 if __name__ == "__main__":

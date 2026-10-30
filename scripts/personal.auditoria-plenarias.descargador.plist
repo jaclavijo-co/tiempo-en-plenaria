@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>personal.auditoria-plenarias.descargador</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>-E</string>
+    <string>-P</string>
+    <string>/Users/joselito/Proyecto Auditoria Congreso/scripts/descargador_lento.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <!-- Revisa cada 30 minutos; el script decide si toca descargar (mínimo 3 h entre videos) -->
+  <key>StartInterval</key>
+  <integer>1800</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>Nice</key>
+  <integer>10</integer>
+  <key>StandardOutPath</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso/data/descargas/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/joselito/Proyecto Auditoria Congreso/data/descargas/launchd.log</string>
+</dict>
+</plist>

@@ -5,3 +5,7 @@ __pycache__/
 # Fuentes pesadas que se pueden volver a descargar de su origen oficial
 data/raw/gaceta_*/
 data/descargas/*/audio.*
+
+# Estado local del descargador automático
+data/descargas/.candado
+data/descargas/launchd.log
