@@ -57,7 +57,7 @@ def analizar(n: int, texto: str) -> dict:
     entidad = ("Senado" if "SENADODELAREPÚBLICA" in compacto else
                "Cámara" if "CÁMARADEREPRESENTANTES" in compacto else "?")
     actas = []
-    for m in re.finditer(r"Acta[^.]{0,40}?(?:número|No\.?|N[º°o]\.?)\s*(\d+)(.{0,160}?)(\d{1,2}) de (\w+) de[l]? (20\d\d)", plano):
+    for m in re.finditer(r"Acta[^.]{0,40}?(?:número|No\.?|N[º°o]\.?)\s*(\d+)(.{0,160}?)(\d{1,2})°? de (\w+) de[l]? (20\d\d)", plano):
         actas.append({"numero": int(m.group(1)), "contexto": m.group(0)[:220],
                       "plenaria": bool(re.search(r"plenari|congreso pleno", m.group(0), re.I)),
                       "fecha_sesion": f"{m.group(5)}-{MESES.index(m.group(4).lower()) + 1:02d}-{int(m.group(3)):02d}"
@@ -66,7 +66,7 @@ def analizar(n: int, texto: str) -> dict:
             "fecha_publicacion": f"{fecha.group(3)}-{MESES.index(fecha.group(2).lower()) + 1:02d}-{int(fecha.group(1)):02d}"
             if fecha and fecha.group(2).lower() in MESES else None,
             "tiene_actas_de_plenaria": "ACTASDEPLENARIA" in compacto or any(a["plenaria"] for a in actas),
-            "actas": actas, "indice": plano[:1500]}
+            "actas": actas, "indice": plano[:4000]}
 
 
 def main():
