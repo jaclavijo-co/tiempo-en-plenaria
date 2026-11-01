@@ -2272,57 +2272,215 @@
    "menciones_control_politico": 0,
    "video": [],
    "aplazada": null
+  },
+  {
+   "fecha": "2026-11-03",
+   "tipo": "plenaria",
+   "documento": "orden-del-dia-03-de-noviembre-2026",
+   "hora_citacion": "9:00a.m.",
+   "proyectos": [
+    {
+     "id": "PL 296/2026 S",
+     "camara": "433/2026 C",
+     "titulo": "Por medio de la cual se modifica, adiciona y prorroga la Ley 418 de 1997, sus prórrogas y se establece la política estatal para garantizar el orden público, lograr una intervención territorial integral y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 224/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica."
+    },
+    {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
+     "id": "PL 103/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público"
+    },
+    {
+     "id": "PL 197/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 223/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 087/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 088/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista"
+    },
+    {
+     "id": "PL 089/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional"
+    },
+    {
+     "id": "PL 090/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 124/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 322/2025 S",
+     "camara": "107/2025 C",
+     "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 106/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes"
+    },
+    {
+     "id": "PL 206/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 102/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional"
+    },
+    {
+     "id": "PL 061/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones"
+    },
+    {
+     "id": "PAL 009/2026 S",
+     "camara": null,
+     "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico"
+    },
+    {
+     "id": "PL 074/2025 S",
+     "camara": null,
+     "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 086/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones"
+    },
+    {
+     "id": "PL 178/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 311/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociación pública privadas y se dictan otras disposiciones"
+    },
+    {
+     "id": "PAL 007/2026 S",
+     "camara": null,
+     "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia"
+    },
+    {
+     "id": "PL 107/2026 S",
+     "camara": null,
+     "titulo": "Por la cual se promueve el fortalecimiento de la inclusión crediticia para la población vulnerable, micronegocios, trabajadores informales y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 021/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se establecen medidas de recuperación productiva y rehabilitación crediticia para pequeños y medianos productores agropecuarios afectados por situaciones de crisis y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 169/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica el artículo 12 A de la Ley 549 de 1999, adicionado por la Ley 2468 de 2025, para establecer un mecanismo excepcional de desahorro de excedentes pensionales por sector y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 055/2026 S",
+     "camara": "140/2025 C",
+     "titulo": "Por medio de la cual se crea la ruta integral de prevención y atención para la salud mental de niños, niñas y adolescentes (RISMNA) desde las instituciones de educación preescolar, básica y media en Colombia y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 366/2026 S",
+     "camara": "027/2025 C",
+     "titulo": "Por medio de la cual se declara como patrimonio cultural inmaterial de la nación las prácticas culturales, artísticas y religiosas asociadas a la celebración de la semana santa en el municipio el Cerrito, Valle del Cauca, y se dictan otras disposiciones"
+    },
+    {
+     "id": "PL 151/2026 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se reconoce y exalta a la orquesta sinfónica de la policía nacional de Colombia como expresión del patrimonio cultural de la nación, se rinde homenaje a sus integrantes y se dictan otras disposiciones"
+    }
+   ],
+   "menciones_control_politico": 1,
+   "video": [],
+   "aplazada": null
   }
  ],
  "proyectos": [
   {
    "id": "PL 061/2025 S",
    "titulo": "Por medio de la cual se dictan normas especiales relativas a los servicios medico quirúrgicos de implantación mamaria y al control, manejo, rehabilitación y atención de secuelas causadas por enfermedades autoinmunes asociadas a los implantes mamarios entre otras disposiciones",
-   "veces_en_orden_del_dia": 19,
+   "veces_en_orden_del_dia": 20,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 102/2025 S",
    "titulo": "Por medio de la cual se garantiza la movilidad salarial en el territorio nacional",
-   "veces_en_orden_del_dia": 19,
+   "veces_en_orden_del_dia": 20,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 119/2025 S",
    "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones.",
-   "veces_en_orden_del_dia": 19,
+   "veces_en_orden_del_dia": 20,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 224/2025 S",
    "titulo": "Por medio de la cual se establece la hidrólisis alcalina y otras nuevas tecnologías como servicios funerarios para disposición final de cadáveres y se dictan otras disposiciones – Ley despedida ecológica.",
-   "veces_en_orden_del_dia": 19,
+   "veces_en_orden_del_dia": 20,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 074/2025 S",
    "titulo": "Por la cual se crea el registro e identificación de usuarios finales de tarjetas SIM y E-SIM o la tecnología que las reemplace y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 15,
+   "veces_en_orden_del_dia": 16,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 178/2025 S",
    "titulo": "Por medio de la cual se modifica el artículo 21 de la Ley 105 de 1993 y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 14,
+   "veces_en_orden_del_dia": 15,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 311/2025 S",
    "titulo": "Por medio de la cual se modifica el régimen jurídico de las asociación pública privadas y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 14,
+   "veces_en_orden_del_dia": 15,
    "primera": "2026-07-29",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 206/2025 S",
+   "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 12,
+   "primera": "2026-09-08",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 295/2025 S",
@@ -2337,13 +2495,6 @@
    "veces_en_orden_del_dia": 11,
    "primera": "2026-07-29",
    "ultima": "2026-09-22"
-  },
-  {
-   "id": "PL 206/2025 S",
-   "titulo": "Por medio de la cual se garantiza el mejoramiento integral de asentamientos humanos de origen informal en suelos rurales y de expansión urbana, se previenen factores de especulación inmobiliaria y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 11,
-   "primera": "2026-09-08",
-   "ultima": "2026-10-29"
   },
   {
    "id": "PL 011/2025 S",
@@ -2367,6 +2518,13 @@
    "ultima": "2026-09-08"
   },
   {
+   "id": "PL 103/2025 S",
+   "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público",
+   "veces_en_orden_del_dia": 9,
+   "primera": "2026-09-23",
+   "ultima": "2026-11-03"
+  },
+  {
    "id": "PL 190/2025 S",
    "titulo": "Por medio de la cual se incentiva el estudio de la programación en computadores, se promueve al acceso de nivel de educación técnica, se garantiza el internet en los establecimientos educativos y se dictan otras disposiciones.",
    "veces_en_orden_del_dia": 9,
@@ -2374,11 +2532,25 @@
    "ultima": "2026-09-08"
   },
   {
-   "id": "PL 103/2025 S",
-   "titulo": "Por medio de la cual se dispone la instalación obligatoria de bebederos de agua potable en áreas de uso dotacional y en el espacio público",
-   "veces_en_orden_del_dia": 8,
+   "id": "PL 197/2025 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 9,
    "primera": "2026-09-23",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 223/2025 S",
+   "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 9,
+   "primera": "2026-09-23",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 086/2025 S",
+   "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones",
+   "veces_en_orden_del_dia": 8,
+   "primera": "2026-09-15",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 113/2026 S",
@@ -2395,20 +2567,6 @@
    "ultima": "2026-09-02"
   },
   {
-   "id": "PL 197/2025 S",
-   "titulo": "Por medio de la cual la nación y el Congreso de la República rinde público homenaje al municipio de Patía, departamento del Cauca, símbolo de resistencia, libertad y preservación de los saberes ancestrales afrocolombianos, se reconoce su legado cultural en la construcción de una sociedad diversa, plural y democrática, y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 8,
-   "primera": "2026-09-23",
-   "ultima": "2026-10-29"
-  },
-  {
-   "id": "PL 223/2025 S",
-   "titulo": "Por medio de la cual se modifica y regula la restricción temporal a la venta y consumo de bebidas alcohólicas y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 8,
-   "primera": "2026-09-23",
-   "ultima": "2026-10-29"
-  },
-  {
    "id": "PL 002/2025 S",
    "titulo": "Por el cual se reglamentan las actividades de reproducción, cría y comercialización de animales de compañía y se dictan otras disposiciones",
    "veces_en_orden_del_dia": 7,
@@ -2416,11 +2574,39 @@
    "ultima": "2026-10-13"
   },
   {
-   "id": "PL 086/2025 S",
-   "titulo": "Por medio de la cual se derogan disposiciones que ordenan la destrucción de maquinaria pesada decomisada en actividades ilícitas y se dictan medidas para su aprovechamiento en la mecanización del campo colombiano y otras disposiciones",
+   "id": "PL 087/2026 S",
+   "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones",
    "veces_en_orden_del_dia": 7,
-   "primera": "2026-09-15",
-   "ultima": "2026-10-29"
+   "primera": "2026-09-30",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 088/2026 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-30",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 089/2026 S",
+   "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-30",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 090/2026 S",
+   "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-30",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 124/2025 S",
+   "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 7,
+   "primera": "2026-09-30",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 269/2025 S",
@@ -2430,32 +2616,11 @@
    "ultima": "2026-09-15"
   },
   {
-   "id": "PL 087/2026 S",
-   "titulo": "Por medio de la cual el Congreso de la República de Colombia rinde homenaje y exalta al municipio de San Benito Abad, departamento de Sucre, y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 6,
+   "id": "PL 322/2025 S",
+   "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 7,
    "primera": "2026-09-30",
-   "ultima": "2026-10-29"
-  },
-  {
-   "id": "PL 088/2026 S",
-   "titulo": "Por medio de la cual la nación y el Congreso de la República enaltecen y reconocen al municipio de Santa Cruz de Lorica en el departamento de Córdoba y su corregimiento de San Sebastián como pioneros de la actividad artesanal del barro y la pintura primitivista",
-   "veces_en_orden_del_dia": 6,
-   "primera": "2026-09-30",
-   "ultima": "2026-10-29"
-  },
-  {
-   "id": "PL 089/2026 S",
-   "titulo": "Por medio de la cual el congreso de la República de Colombia establece cada 28 de noviembre el día de la ‘Baracunatana’ y ‘Anhelos’ como reconocimiento a los grandes exponentes de la música como lo son los maestros Lisandro Meza y Alfredo Gutiérrez del municipio de los Palmitos, departamento de Sucre, como pioneros de la música colombiana que contribuyeron a su reconocimiento internacional",
-   "veces_en_orden_del_dia": 6,
-   "primera": "2026-09-30",
-   "ultima": "2026-10-29"
-  },
-  {
-   "id": "PL 090/2026 S",
-   "titulo": "Por medio de la cual la nación y el Congreso de la República exaltan al municipio de Río Viejo, departamento de Bolívar, reconocen el legado cultural de sus cantadoras y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 6,
-   "primera": "2026-09-30",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 121/2025 S",
@@ -2463,20 +2628,6 @@
    "veces_en_orden_del_dia": 6,
    "primera": "2026-09-22",
    "ultima": "2026-10-14"
-  },
-  {
-   "id": "PL 124/2025 S",
-   "titulo": "Por medio de la cual se declara el turbante y sus saberes asociados como patrimonio cultural inmaterial de la nación y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 6,
-   "primera": "2026-09-30",
-   "ultima": "2026-10-29"
-  },
-  {
-   "id": "PL 322/2025 S",
-   "titulo": "Por medio del cual la nación se asocia a la celebración de los quinientos años (500) de fundación del municipio de Pueblo Viejo, departamento de la Magdalena y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 6,
-   "primera": "2026-09-30",
-   "ultima": "2026-10-29"
   },
   {
    "id": "PL 026/2025 S",
@@ -2491,6 +2642,13 @@
    "veces_en_orden_del_dia": 5,
    "primera": "2026-09-15",
    "ultima": "2026-09-30"
+  },
+  {
+   "id": "PL 106/2026 S",
+   "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes",
+   "veces_en_orden_del_dia": 5,
+   "primera": "2026-10-14",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 187/2025 S",
@@ -2512,6 +2670,13 @@
    "veces_en_orden_del_dia": 5,
    "primera": "2026-09-15",
    "ultima": "2026-09-30"
+  },
+  {
+   "id": "PAL 009/2026 S",
+   "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico",
+   "veces_en_orden_del_dia": 4,
+   "primera": "2026-10-27",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 010/2025 S",
@@ -2542,13 +2707,6 @@
    "ultima": "2026-08-18"
   },
   {
-   "id": "PL 106/2026 S",
-   "titulo": "Por la cual se establece que los programas de apoyo para el sostenimiento de estudiantes colombianos tendrán prioridad, de disponibilidad presupuestal, sobre otros de transferencias monetarias para jóvenes",
-   "veces_en_orden_del_dia": 4,
-   "primera": "2026-10-14",
-   "ultima": "2026-10-29"
-  },
-  {
    "id": "PL 249/2025 S",
    "titulo": "Por medio de la cual se reconoce a la feria de Cali y a la salsa caleña como patrimonio cultural de la nación y se dictan otras disposiciones.",
    "veces_en_orden_del_dia": 4,
@@ -2563,11 +2721,11 @@
    "ultima": "2026-08-18"
   },
   {
-   "id": "PAL 009/2026 S",
-   "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico",
+   "id": "PAL 007/2026 S",
+   "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia",
    "veces_en_orden_del_dia": 3,
-   "primera": "2026-10-27",
-   "ultima": "2026-10-29"
+   "primera": "2026-10-28",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 014/2025 S",
@@ -2577,32 +2735,39 @@
    "ultima": "2026-08-11"
   },
   {
-   "id": "PAL 007/2026 S",
-   "titulo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de distrito cultural, turístico y religioso al municipio de Jericó, Antioquia",
-   "veces_en_orden_del_dia": 2,
-   "primera": "2026-10-28",
-   "ultima": "2026-10-29"
-  },
-  {
    "id": "PL 021/2026 S",
    "titulo": "Por medio de la cual se establecen medidas de recuperación productiva y rehabilitación crediticia para pequeños y medianos productores agropecuarios afectados por situaciones de crisis y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 2,
+   "veces_en_orden_del_dia": 3,
    "primera": "2026-10-28",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 107/2026 S",
    "titulo": "Por la cual se promueve el fortalecimiento de la inclusión crediticia para la población vulnerable, micronegocios, trabajadores informales y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 2,
+   "veces_en_orden_del_dia": 3,
    "primera": "2026-10-28",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 169/2026 S",
    "titulo": "Por medio de la cual se modifica el artículo 12 A de la Ley 549 de 1999, adicionado por la Ley 2468 de 2025, para establecer un mecanismo excepcional de desahorro de excedentes pensionales por sector y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 2,
+   "veces_en_orden_del_dia": 3,
    "primera": "2026-10-28",
-   "ultima": "2026-10-29"
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 296/2026 S",
+   "titulo": "Por medio de la cual se modifica, adiciona y prorroga la Ley 418 de 1997, sus prórrogas y se establece la política estatal para garantizar el orden público, lograr una intervención territorial integral y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 2,
+   "primera": "2026-10-30",
+   "ultima": "2026-11-03"
+  },
+  {
+   "id": "PL 055/2026 S",
+   "titulo": "Por medio de la cual se crea la ruta integral de prevención y atención para la salud mental de niños, niñas y adolescentes (RISMNA) desde las instituciones de educación preescolar, básica y media en Colombia y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-11-03",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 111/2026 S",
@@ -2610,6 +2775,13 @@
    "veces_en_orden_del_dia": 1,
    "primera": "2026-10-19",
    "ultima": "2026-10-19"
+  },
+  {
+   "id": "PL 151/2026 S",
+   "titulo": "Por medio de la cual se reconoce y exalta a la orquesta sinfónica de la policía nacional de Colombia como expresión del patrimonio cultural de la nación, se rinde homenaje a sus integrantes y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-11-03",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 244/2024 S",
@@ -2626,18 +2798,18 @@
    "ultima": "2026-09-22"
   },
   {
-   "id": "PL 296/2026 S",
-   "titulo": "Por medio de la cual se modifica, adiciona y prorroga la Ley 418 de 1997, sus prórrogas y se establece la política estatal para garantizar el orden público, lograr una intervención territorial integral y se dictan otras disposiciones",
-   "veces_en_orden_del_dia": 1,
-   "primera": "2026-10-30",
-   "ultima": "2026-10-30"
-  },
-  {
    "id": "PL 345/2024 S",
    "titulo": "Por la cual se establecen criterios y límites para la disminución de los requisitos mínimos para acceder a empleos de nivel directivo del orden nacional y para integrar juntas directivas de empresas con participación estatal del orden nacional, y se dictan otras disposiciones",
    "veces_en_orden_del_dia": 1,
    "primera": "2026-09-22",
    "ultima": "2026-09-22"
+  },
+  {
+   "id": "PL 366/2026 S",
+   "titulo": "Por medio de la cual se declara como patrimonio cultural inmaterial de la nación las prácticas culturales, artísticas y religiosas asociadas a la celebración de la semana santa en el municipio el Cerrito, Valle del Cauca, y se dictan otras disposiciones",
+   "veces_en_orden_del_dia": 1,
+   "primera": "2026-11-03",
+   "ultima": "2026-11-03"
   },
   {
    "id": "PL 367/2026 S",
