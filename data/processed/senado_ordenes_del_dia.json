@@ -2573,7 +2573,7 @@
   {
    "fecha": "2026-11-10",
    "tipo": "plenaria",
-   "documento": "orden-del-dia-10-de-noviembre-2026",
+   "documento": "orden-del-dia-modificado-10-de-noviembre-2026",
    "hora_citacion": "3:00p.m.",
    "proyectos": [
     {
@@ -2592,6 +2592,11 @@
      "titulo": "Por medio de la cual las víctimas de delitos contra la libertad, integridad y formación sexuales por parte de sus padres no estarán obligadas a asistirlos económicamente"
     },
     {
+     "id": "PL 119/2025 S",
+     "camara": null,
+     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
+    },
+    {
      "id": "PAL 018/2026 S",
      "camara": null,
      "titulo": "Por medio del cual se modifica el artículo transitorio 15 del acto legislativo 01 de 2017, se establece un régimen de cierre y transición jurisdiccional y se dictan otras disposiciones."
@@ -2605,11 +2610,6 @@
      "id": "PAL 009/2026 S",
      "camara": null,
      "titulo": "Por el cual se otorga la categoría de distrito turístico, cultural, histórico y de tecnología al municipio de Puerto Colombia en el departamento del Atlántico"
-    },
-    {
-     "id": "PL 119/2025 S",
-     "camara": null,
-     "titulo": "Por medio de la cual se modifica la Ley 142 de 1994, para eliminar el cobro por concepto de reconexión por concepto de reconexión de servicios públicos residenciales, y se dictan otras disposiciones."
     },
     {
      "id": "PL 197/2025 S",
