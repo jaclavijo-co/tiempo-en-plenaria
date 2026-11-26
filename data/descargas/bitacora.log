@@ -1128,3 +1128,13 @@
 2026-11-25 00:16:58 detenido por bloqueos repetidos; revisar y usar --reanudar
 2026-11-25 07:05:04 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
 2026-11-25 08:07:59 detector: error en la Secretaría del Senado: timed out
+2026-11-25 08:23:27 detector: GitHub push falló: main': is at 07a6e2ae822b7a1042af529e0ccc9f1e52388705 but expected 9ad4318ff099b44dcde204e4d2b297b6d8e1e567)
+error: failed to push some refs to 'https://github.com/jaclavijo-co/tiempo-en-plenaria.git'
+2026-11-25 09:51:19 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-25 13:16:13 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-25 13:46:13 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-25 14:16:13 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-25 22:54:56 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-26 05:17:21 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-26 07:07:37 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
+2026-11-26 07:28:02 detector: 2 documentos nuevos del Senado ['orden-del-dia-congreso-pleno-25-de-noviembre-de-2026', 'orden-del-dia-25-de-noviembre-2026']
