@@ -1138,3 +1138,17 @@ error: failed to push some refs to 'https://github.com/jaclavijo-co/tiempo-en-pl
 2026-11-26 05:17:21 detenido por bloqueos repetidos; revisar y usar --reanudar
 2026-11-26 07:07:37 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
 2026-11-26 07:28:02 detector: 2 documentos nuevos del Senado ['orden-del-dia-congreso-pleno-25-de-noviembre-de-2026', 'orden-del-dia-25-de-noviembre-2026']
+2026-11-26 07:43:12 detector: GitHub subido
+2026-11-26 12:24:28 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-26 14:56:30 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-26 17:00:42 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-26 23:44:55 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 00:43:32 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 01:21:30 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 02:25:13 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 03:55:17 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 04:40:29 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 05:56:20 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 06:57:18 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 07:04:28 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
+2026-11-27 07:04:28 detector: error en la Secretaría del Senado: <urlopen error [Errno 8] nodename nor servname provided, or not known>
