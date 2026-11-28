@@ -1152,3 +1152,8 @@ error: failed to push some refs to 'https://github.com/jaclavijo-co/tiempo-en-pl
 2026-11-27 06:57:18 detenido por bloqueos repetidos; revisar y usar --reanudar
 2026-11-27 07:04:28 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
 2026-11-27 07:04:28 detector: error en la Secretaría del Senado: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27 07:04:29 detector: GitHub no se pudo integrar con GitHub: fatal: unable to access 'https://github.com/jaclavijo-co/tiempo-en-plenaria.git/': Could not resolve host: github.com
+2026-11-27 18:56:30 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-27 22:31:15 detenido por bloqueos repetidos; revisar y usar --reanudar
+2026-11-28 07:01:00 detector: YouTube en espera por bloqueo; hoy no se consulta el canal
+2026-11-28 07:01:04 detector: 1 documentos nuevos del Senado ['orden-del-dia-01-de-diciembre-2026']
